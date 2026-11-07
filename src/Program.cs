@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -63,7 +63,7 @@ namespace SakatsukuPatcher
 
         private void InitializeComponent()
         {
-            this.Text = "사카츠쿠 2013 (PS3) 한글패치 v1.0";
+            this.Text = "사카츠쿠 2013 (PS3) 한글패치 v0.9";
             this.Size = new Size(540, 260);
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
@@ -201,182 +201,7 @@ namespace SakatsukuPatcher
 
         private void PerformPatch(string rootPath)
         {
-            SetStatus("게임 데이터 폴더 탐색 중...", 5);
-
-            string dataDir = null;
-            string[] candidates = new string[]
-            {
-                Path.Combine(rootPath, @"PS3_GAME\USRDIR\data"),
-                Path.Combine(rootPath, @"USRDIR\data"),
-                Path.Combine(rootPath, "data"),
-                rootPath
-            };
-
-            foreach (var c in candidates)
-            {
-                if (File.Exists(Path.Combine(c, "font.par")))
-                {
-                    dataDir = c;
-                    break;
-                }
-            }
-
-            if (dataDir == null)
-            {
-                throw new Exception("선택한 폴더에서 사카츠쿠 게임 데이터(font.par)를 찾을 수 없습니다.\nPS3_GAME 폴더가 포함된 올바른 게임 폴더를 지정해주세요.");
-            }
-
-            SetStatus("패치 데이터 로드 중...", 10);
-            Stream patchStream = null;
-            string localPatch = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "korean.patch");
-            if (File.Exists(localPatch))
-            {
-                patchStream = File.OpenRead(localPatch);
-            }
-            else
-            {
-                var asm = Assembly.GetExecutingAssembly();
-                patchStream = asm.GetManifestResourceStream("korean.patch");
-            }
-
-            if (patchStream == null)
-            {
-                throw new Exception("패치 데이터(korean.patch)를 찾을 수 없습니다.");
-            }
-
-            using (patchStream)
-            using (var zip = new ZipArchive(patchStream, ZipArchiveMode.Read))
-            {
-                var manifestEntry = zip.GetEntry("manifest.json");
-                if (manifestEntry == null) throw new Exception("패치 매니페스트를 찾을 수 없습니다.");
-
-                PatchManifest manifest;
-                using (var reader = manifestEntry.Open())
-                {
-                    var serializer = new DataContractJsonSerializer(typeof(PatchManifest));
-                    manifest = (PatchManifest)serializer.ReadObject(reader);
-                }
-
-                if (manifest.Format != "sakatsuku-xor-v1")
-                {
-                    throw new Exception("지원하지 않는 패치 형식입니다.");
-                }
-
-                SetStatus("원본 파일 무결성 검증 중...", 20);
-
-                var pending = new List<PendingPatch>();
-                int totalFiles = manifest.Files.Count;
-                int currentFile = 0;
-                int alreadyCount = 0;
-
-                using (var sha = SHA256.Create())
-                {
-                    foreach (var item in manifest.Files)
-                    {
-                        currentFile++;
-                        string dest = Path.Combine(dataDir, item.Path.Replace('/', '\\'));
-                        if (!File.Exists(dest))
-                        {
-                            throw new Exception("원본 파일 누락: " + item.Path);
-                        }
-
-                        byte[] bytes = File.ReadAllBytes(dest);
-                        string currentHash = HashBytes(sha, bytes);
-
-                        if (string.Equals(currentHash, item.TargetSha256, StringComparison.OrdinalIgnoreCase))
-                        {
-                            alreadyCount++;
-                            continue;
-                        }
-
-                        if (!string.Equals(currentHash, item.OriginalSha256, StringComparison.OrdinalIgnoreCase) || bytes.Length != item.Size)
-                        {
-                            throw new Exception("원본 파일 버전 불일치: " + item.Path + "\n변조되지 않은 정품 원본 게임 파일을 사용해주세요.");
-                        }
-
-                        var payloadEntry = zip.GetEntry(item.Payload);
-                        if (payloadEntry == null) throw new Exception("페이로드 누락: " + item.Payload);
-
-                        byte[] delta;
-                        using (var ms = new MemoryStream())
-                        using (var ps = payloadEntry.Open())
-                        {
-                            ps.CopyTo(ms);
-                            delta = ms.ToArray();
-                        }
-
-                        if (delta.Length != bytes.Length) throw new Exception("페이로드 길이 불일치: " + item.Path);
-
-                        // In-memory XOR
-                        for (int i = 0; i < bytes.Length; i++)
-                        {
-                            bytes[i] = (byte)(bytes[i] ^ delta[i]);
-                        }
-
-                        if (!string.Equals(HashBytes(sha, bytes), item.TargetSha256, StringComparison.OrdinalIgnoreCase))
-                        {
-                            throw new Exception("패치 후 체크섬 검증 실패: " + item.Path);
-                        }
-
-                        pending.Add(new PendingPatch
-                        {
-                            Item = item,
-                            DestPath = dest,
-                            PatchedBytes = bytes
-                        });
-
-                        int percent = 20 + (int)((float)currentFile / totalFiles * 40);
-                        SetStatus(string.Format("검증 중: {0} ({1}/{2})", Path.GetFileName(item.Path), currentFile, totalFiles), percent);
-                    }
-
-                    if (pending.Count == 0)
-                    {
-                        SetStatus("이미 모든 파일이 한글 패치되어 있습니다.", 100);
-                        return;
-                    }
-
-                    // Backup originals
-                    string parentDir = Path.GetDirectoryName(dataDir);
-                    string backupDir = Path.Combine(parentDir, "KoreanPatch_Backup_" + Guid.NewGuid().ToString("N"));
-                    Directory.CreateDirectory(backupDir);
-
-                    SetStatus("원본 백업 중...", 65);
-                    foreach (var p in pending)
-                    {
-                        string saved = Path.Combine(backupDir, p.Item.Path.Replace('/', '\\'));
-                        Directory.CreateDirectory(Path.GetDirectoryName(saved));
-                        File.Copy(p.DestPath, saved, false);
-                    }
-
-                    // Apply patched bytes with rollback safety
-                    SetStatus("한글 패치 파일 적용 중...", 75);
-                    var written = new List<PendingPatch>();
-                    try
-                    {
-                        int done = 0;
-                        foreach (var p in pending)
-                        {
-                            written.Add(p);
-                            File.WriteAllBytes(p.DestPath, p.PatchedBytes);
-                            done++;
-                            int percent = 75 + (int)((float)done / pending.Count * 25);
-                            SetStatus(string.Format("적용 중: {0} ({1}/{2})", Path.GetFileName(p.Item.Path), done, pending.Count), percent);
-                        }
-                    }
-                    catch (Exception)
-                    {
-                        // Rollback
-                        foreach (var w in written)
-                        {
-                            string saved = Path.Combine(backupDir, w.Item.Path.Replace('/', '\\'));
-                            if (File.Exists(saved)) File.Copy(saved, w.DestPath, true);
-                        }
-                        throw;
-                    }
-                }
-
-                SetStatus("패치 완료! 백업 폴더가 생성되었습니다.", 100);
-            }
+            PatchEngine.Run(rootPath, false, SetStatus);
         }
 
         private static string HashBytes(SHA256 sha, byte[] bytes)
@@ -401,8 +226,12 @@ namespace SakatsukuPatcher
     static class Program
     {
         [STAThread]
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
+            if (args.Length >= 2 && (args[0] == "--verify" || args[0] == "--apply")) {
+                try { PatchEngine.Run(args[1], args[0] == "--verify", (s,p) => Console.WriteLine(s)); return 0; }
+                catch (Exception ex) { Console.Error.WriteLine(ex.Message); return 1; }
+            }
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
@@ -417,6 +246,7 @@ namespace SakatsukuPatcher
             }
 
             Application.Run(new MainForm(defaultPath));
+            return 0;
         }
     }
 }
