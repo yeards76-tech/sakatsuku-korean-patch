@@ -1,0 +1,36 @@
+{
+  "version": "0.9",
+  "results": [
+    {
+      "source": "original",
+      "verify_read_only": true,
+      "apply_all_hashes": true,
+      "backup_all_hashes": true,
+      "idempotent": true,
+      "files": 191,
+      "changed": 191
+    },
+    {
+      "source": "v08",
+      "verify_read_only": true,
+      "apply_all_hashes": true,
+      "backup_all_hashes": true,
+      "idempotent": true,
+      "files": 191,
+      "changed": 25
+    },
+    {
+      "source": "reviewed",
+      "verify_read_only": true,
+      "apply_all_hashes": true,
+      "backup_all_hashes": true,
+      "idempotent": true,
+      "files": 191,
+      "changed": 0
+    }
+  ],
+  "unknown_version_rejected_without_writes": true,
+  "dialogue_structure_checks": "See dialogue_review_verification.json",
+  "runtime": "Earlier reviewed files booted to PSN notice; packaged installer tested on copies only",
+  "all_branches_playtested": false
+}

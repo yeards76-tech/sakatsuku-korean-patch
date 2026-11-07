@@ -1,0 +1,31 @@
+{
+  "task_complete": true,
+  "pending_dialogue_review": 0,
+  "reviewed_candidate_groups": 13020,
+  "cumulative_revised_groups": 5769,
+  "cumulative_locations": 8752,
+  "validated_templates": 5771,
+  "validated_locations": 8755,
+  "new_changed_locations": 6349,
+  "applied_files_this_round": 69,
+  "cumulative_changed_resource_types": 25,
+  "validated_dynamic_fields": 4025,
+  "validated_resources": 182,
+  "original_incomplete_entries_preserved": [
+    {
+      "rid": 12892,
+      "category": "개발용/더미로 보이는 문자열",
+      "reason": "각성 보고 역할별 대사 앞의 특수 placeholder이며 원문 자체가 불완전합니다. 의미를 추정해 새 대사를 만들지 않고 현재 파일을 보존합니다.",
+      "ja": "普通のなしでした。"
+    },
+    {
+      "rid": 12933,
+      "category": "개발용/더미로 보이는 문자열",
+      "reason": "각성 보고 역할별 대사 앞의 특수 placeholder이며 원문 자체가 불완전합니다. 의미를 추정해 새 대사를 만들지 않고 현재 파일을 보존합니다.",
+      "ja": "爆発的ななしでした！"
+    }
+  ],
+  "runtime_boot_observed": true,
+  "runtime_observation": "RPCS3 게임 렌더링 및 PSN 비로그인 안내 화면까지 약 60FPS 기동 확인. 기존 XInput 컨트롤러 설정에서 추가 게임 입력은 하지 않고 시험 종료. 모든 분기 플레이 및 개별 대사의 화면 렌더링은 미검증.",
+  "all_branches_playtested": false
+}

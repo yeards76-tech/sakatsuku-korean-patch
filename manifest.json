@@ -1,0 +1,3466 @@
+{
+  "format": "sakatsuku-xor-v2",
+  "version": "0.9",
+  "revision": "Dialogue context review and explicit dynamic fields",
+  "files": [
+    {
+      "path": "cmn_tex/arc_tex_game_skill.par",
+      "target_size": 2287616,
+      "target_sha256": "501eee0445fb4f949f677afabaa9a07a87520089739beb0b0b08703d49b2d0af",
+      "variants": [
+        {
+          "sha256": "56e6278fbf35886baa3fe516abfd2f6166102d0cd06f59b0af153d3eb7c2ef09",
+          "size": 2287616,
+          "payload": "delta/0000_0.bin"
+        },
+        {
+          "sha256": "a178a14f20d29ae758ec20d62ccf6990a16df76a93e576f589748b12850eab00",
+          "size": 2287616,
+          "payload": "delta/0000_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "cmn_tex/arc_tex_help_img.par",
+      "target_size": 8425472,
+      "target_sha256": "ea43f11e9d99096cdf2b4a9b9f9a93d546c8f3769bb2db0088c5c232518c89df",
+      "variants": [
+        {
+          "sha256": "ab9ddf19e59283b98ddc621e8326a90dd3ca232dcd25cea95ffd473c7b7d469b",
+          "size": 8425472,
+          "payload": "delta/0001_0.bin"
+        },
+        {
+          "sha256": "a33e6a0cda8382fd3dd4f822997d8fcf9dd3a9dc1d173251ccbd8a1e13af23fe",
+          "size": 8425472,
+          "payload": "delta/0001_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "cmn_tex/ind_tex_game_skill.par",
+      "target_size": 2287616,
+      "target_sha256": "501eee0445fb4f949f677afabaa9a07a87520089739beb0b0b08703d49b2d0af",
+      "variants": [
+        {
+          "sha256": "56e6278fbf35886baa3fe516abfd2f6166102d0cd06f59b0af153d3eb7c2ef09",
+          "size": 2287616,
+          "payload": "delta/0002_0.bin"
+        },
+        {
+          "sha256": "a178a14f20d29ae758ec20d62ccf6990a16df76a93e576f589748b12850eab00",
+          "size": 2287616,
+          "payload": "delta/0002_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "cmn_tex/ind_tex_help_img.par",
+      "target_size": 8425472,
+      "target_sha256": "ea43f11e9d99096cdf2b4a9b9f9a93d546c8f3769bb2db0088c5c232518c89df",
+      "variants": [
+        {
+          "sha256": "ab9ddf19e59283b98ddc621e8326a90dd3ca232dcd25cea95ffd473c7b7d469b",
+          "size": 8425472,
+          "payload": "delta/0003_0.bin"
+        },
+        {
+          "sha256": "a33e6a0cda8382fd3dd4f822997d8fcf9dd3a9dc1d173251ccbd8a1e13af23fe",
+          "size": 8425472,
+          "payload": "delta/0003_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "font.par",
+      "target_size": 1935360,
+      "target_sha256": "af92ae12365863e4587021b61dbab71e6c7233cec01843d1d76c3721009e7c6f",
+      "variants": [
+        {
+          "sha256": "ce1be2172071ab64e8dcdfc0788d9b9985073fd444414524f723d66a6a240a7a",
+          "size": 1935360,
+          "payload": "delta/0004_0.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/club_member_list.arch",
+      "target_size": 4096,
+      "target_sha256": "ab4f244df9eaa0919f44997e30fe107f8db16ff16dd1b9430ed34e8c5951555b",
+      "variants": [
+        {
+          "sha256": "05275b0a8662a6603f55c7acbc52612a6947138162c8c7fb9d44c7e47557e1e4",
+          "size": 4352,
+          "payload": "delta/0005_0.bin"
+        },
+        {
+          "sha256": "e104eaa6636e9267c4efea467c22e1090ecf28d06190f64cd19bb90a5a05001a",
+          "size": 4352,
+          "payload": "delta/0005_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/event_cmn.arch",
+      "target_size": 4032,
+      "target_sha256": "1673fa7a4f01dfb0d763ffefe55e8177c7c9c639130e001c2d1eb86ee837d5da",
+      "variants": [
+        {
+          "sha256": "879e5a096d0095c060b83d07b2e493ee034a72c8da9fe78c5d0b2631f54fa89d",
+          "size": 4288,
+          "payload": "delta/0006_0.bin"
+        },
+        {
+          "sha256": "703931d22915c547a16cf30d3f15403a0315982b95ee7f7702debdb9ab7e903c",
+          "size": 4032,
+          "payload": "delta/0006_1.bin"
+        },
+        {
+          "sha256": "8c5eaf24bbf468c36ff833ae1d715e79e6b83539df6d330c9b56ecfe025c0ee5",
+          "size": 4288,
+          "payload": "delta/0006_2.bin"
+        },
+        {
+          "sha256": "a9f21beb4436f476a69fc9d953e42ed10cef986aeaf1db4024297d732c74b748",
+          "size": 4032,
+          "payload": "delta/0006_3.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/event_negotiation.arch",
+      "target_size": 83904,
+      "target_sha256": "380f2604f6206b8d5766b8b36cbab8865f19bda5dc05c1dc4928e25ccb12db18",
+      "variants": [
+        {
+          "sha256": "4f912d8df9dee4c30b1b2595698b69bf564b87effb2aaab6147ff073000896a7",
+          "size": 87552,
+          "payload": "delta/0007_0.bin"
+        },
+        {
+          "sha256": "6a0e8fab1314f6bf22b2cc225d9d9477b0d12cdd548a08373942a92f4d1d604a",
+          "size": 82112,
+          "payload": "delta/0007_1.bin"
+        },
+        {
+          "sha256": "ce30e1fde2a7c405363f80b33ed7cfd7f0a56a80eab3651d4e54a1cb4291163c",
+          "size": 87552,
+          "payload": "delta/0007_2.bin"
+        },
+        {
+          "sha256": "02b2277edf229eb5deae504ae0f6da6ba289bd54d61c0cae0b526a5f4840eb57",
+          "size": 83456,
+          "payload": "delta/0007_3.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/gm_detail.arch",
+      "target_size": 19840,
+      "target_sha256": "8b61b7e2f7021260f7d9e6089df24c9f658c774052c3766465deb273d897a33e",
+      "variants": [
+        {
+          "sha256": "af4ab6b1ae807c6d88448e645d6b99ec4deb8e1beaa95746a90c1576b4f28668",
+          "size": 20928,
+          "payload": "delta/0008_0.bin"
+        },
+        {
+          "sha256": "86ff6ad4aafb47ad183866ac51968a23193f41b50f336ff684a39572daded831",
+          "size": 20928,
+          "payload": "delta/0008_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/jinji_menu_offer_list.arch",
+      "target_size": 15168,
+      "target_sha256": "9b964373e3a766e3a6e65268fcf25384442eae3f85fe1c010b4b179175c138d9",
+      "variants": [
+        {
+          "sha256": "cdd0d04f6e9f3c0c47fe12ead6389a6a09895eaaa2b56abccd01fa6851181345",
+          "size": 16064,
+          "payload": "delta/0009_0.bin"
+        },
+        {
+          "sha256": "ba78028591cfde5df9fb857f80a4f7e5062720d76a6285174b0abb43e6aa8e37",
+          "size": 16064,
+          "payload": "delta/0009_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/jinji_menu_rentaliseki.arch",
+      "target_size": 15616,
+      "target_sha256": "8e4b1293c97115f7c08415b5c15107da60a82c036dcdcf6f8c871b1a1b3c5aab",
+      "variants": [
+        {
+          "sha256": "790d54de89d303ac32ddc77630c2ef55e44f8d46fa847bc057268964bf551c30",
+          "size": 16512,
+          "payload": "delta/0010_0.bin"
+        },
+        {
+          "sha256": "49930b27207a1a13c667fcf97bba59abf0cc6e2d2f50a89f29e2263a0a64c6d3",
+          "size": 16512,
+          "payload": "delta/0010_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/jinji_menu_scoutlist.arch",
+      "target_size": 15168,
+      "target_sha256": "9b964373e3a766e3a6e65268fcf25384442eae3f85fe1c010b4b179175c138d9",
+      "variants": [
+        {
+          "sha256": "cdd0d04f6e9f3c0c47fe12ead6389a6a09895eaaa2b56abccd01fa6851181345",
+          "size": 16064,
+          "payload": "delta/0011_0.bin"
+        },
+        {
+          "sha256": "ba78028591cfde5df9fb857f80a4f7e5062720d76a6285174b0abb43e6aa8e37",
+          "size": 16064,
+          "payload": "delta/0011_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/jinji_menu_scoutorder.arch",
+      "target_size": 16384,
+      "target_sha256": "d3ba358fb600a90434f24c872883ae33d402025fa1c4c86f3c4d97f58786a404",
+      "variants": [
+        {
+          "sha256": "380a8b1ca6e91a5690daca1853b5d56af528a348ed640a5bc55917cbf4be8dc6",
+          "size": 17344,
+          "payload": "delta/0012_0.bin"
+        },
+        {
+          "sha256": "1bc92c5e940de330b7835e184521644f16488c00d94c5b96a2266343b062c92b",
+          "size": 17344,
+          "payload": "delta/0012_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/jinji_menu_youth.arch",
+      "target_size": 40512,
+      "target_sha256": "0628c3ce496fc07395238debf4de1af27c1a421afc6434e10c252643493e0b80",
+      "variants": [
+        {
+          "sha256": "4b9619cd92043ffb21b6ee4f45df699df9d8cdcfe652ef95836f87b2d9cd17bc",
+          "size": 43264,
+          "payload": "delta/0013_0.bin"
+        },
+        {
+          "sha256": "12ad49f9778b55d7a8fcd38359123b23e21e420b57133a445e3248aeb9472843",
+          "size": 43264,
+          "payload": "delta/0013_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/mainmenu.arch",
+      "target_size": 4096,
+      "target_sha256": "ab4f244df9eaa0919f44997e30fe107f8db16ff16dd1b9430ed34e8c5951555b",
+      "variants": [
+        {
+          "sha256": "05275b0a8662a6603f55c7acbc52612a6947138162c8c7fb9d44c7e47557e1e4",
+          "size": 4352,
+          "payload": "delta/0014_0.bin"
+        },
+        {
+          "sha256": "e104eaa6636e9267c4efea467c22e1090ecf28d06190f64cd19bb90a5a05001a",
+          "size": 4352,
+          "payload": "delta/0014_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/manager_detail.arch",
+      "target_size": 35968,
+      "target_sha256": "2f7cc99cea55b4d8a2237f2b5c7601454609cd6018191091d70598d6e4d35ea7",
+      "variants": [
+        {
+          "sha256": "ef9409d6f7805a34c7ea5147468eed3c4fdc7213aa8fb7d5c5788824bf1eb11a",
+          "size": 38656,
+          "payload": "delta/0015_0.bin"
+        },
+        {
+          "sha256": "9d74077766707a904ed3d877134523cb9c38b6df87e66264d021181e2b451fdf",
+          "size": 38656,
+          "payload": "delta/0015_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/manager_list.arch",
+      "target_size": 21696,
+      "target_sha256": "6080940440e9bd987b7177c83a782e76a4f8e514c1fcdad8e210869b96f764ec",
+      "variants": [
+        {
+          "sha256": "96a35c0c2119c92064f9514e7a1aa85649f22f4e4b3fe3d96caf5fe250b02972",
+          "size": 22656,
+          "payload": "delta/0016_0.bin"
+        },
+        {
+          "sha256": "2ec9c0e5aa56f813437b26661fb76c42b61b788b05474e7310917215c3cdbb50",
+          "size": 22656,
+          "payload": "delta/0016_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/match_after_all.arch",
+      "target_size": 13056,
+      "target_sha256": "7d80740584b105cb71c6d109095b580266f085204f91e17ed904a0034d17a454",
+      "variants": [
+        {
+          "sha256": "bc3b9ee7056ccd8901fba42989197cfc321ca1eb300123c07fe71f09f808ebe5",
+          "size": 13696,
+          "payload": "delta/0017_0.bin"
+        },
+        {
+          "sha256": "2b9b45262cdb8c8ef85113c540a2373f8bf8756f3da9590ad46e1953e1db5cc4",
+          "size": 13696,
+          "payload": "delta/0017_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/match_before_all.arch",
+      "target_size": 1472,
+      "target_sha256": "3368cd6b7fccbc49999f05762e6a9422e397173099c70e2a152aff9b245a80f9",
+      "variants": [
+        {
+          "sha256": "c02c8acec064796db23c12a86b5399cb2251bb5b862de3fe5b4ee460f51afbe1",
+          "size": 1536,
+          "payload": "delta/0018_0.bin"
+        },
+        {
+          "sha256": "b627ef842443ae8ad7dc8a17bce2232c00ffcf77e2dcfa41ce6cf2cdb4a416e2",
+          "size": 1536,
+          "payload": "delta/0018_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/player_detail.arch",
+      "target_size": 30592,
+      "target_sha256": "4497321b1f81e2bba83a19e379c9d9b5a3dce9aa05f98576a16852e8886bc077",
+      "variants": [
+        {
+          "sha256": "8ccb3ea93c7226f893b4601601ea46db35fd505c2740aad0214f087d51320786",
+          "size": 33088,
+          "payload": "delta/0019_0.bin"
+        },
+        {
+          "sha256": "e50aca343ed27c21ed313d2c4be02787380ba651bfa24ef974612b9f404cf8ac",
+          "size": 33088,
+          "payload": "delta/0019_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/player_detail_tact.arch",
+      "target_size": 30592,
+      "target_sha256": "4497321b1f81e2bba83a19e379c9d9b5a3dce9aa05f98576a16852e8886bc077",
+      "variants": [
+        {
+          "sha256": "8ccb3ea93c7226f893b4601601ea46db35fd505c2740aad0214f087d51320786",
+          "size": 33088,
+          "payload": "delta/0020_0.bin"
+        },
+        {
+          "sha256": "e50aca343ed27c21ed313d2c4be02787380ba651bfa24ef974612b9f404cf8ac",
+          "size": 33088,
+          "payload": "delta/0020_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/player_list_main.arch",
+      "target_size": 4096,
+      "target_sha256": "ab4f244df9eaa0919f44997e30fe107f8db16ff16dd1b9430ed34e8c5951555b",
+      "variants": [
+        {
+          "sha256": "05275b0a8662a6603f55c7acbc52612a6947138162c8c7fb9d44c7e47557e1e4",
+          "size": 4352,
+          "payload": "delta/0021_0.bin"
+        },
+        {
+          "sha256": "e104eaa6636e9267c4efea467c22e1090ecf28d06190f64cd19bb90a5a05001a",
+          "size": 4352,
+          "payload": "delta/0021_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/player_list_sub.arch",
+      "target_size": 921216,
+      "target_sha256": "62ef99bf9be3d73213625f12ef78048cff83ff66bbbcb89ad41dc199e6c1825d",
+      "variants": [
+        {
+          "sha256": "a5e76b668ac9efbe0e2ba5b83e49ebb8123d7a98c0180b066b094b04854046d1",
+          "size": 852928,
+          "payload": "delta/0022_0.bin"
+        },
+        {
+          "sha256": "4a9bf8b7b15abc4edcf51bd43c5a239643c6fa92f421746d29f8bcb7965f4b5f",
+          "size": 852928,
+          "payload": "delta/0022_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/player_profile_meikan.arch",
+      "target_size": 905280,
+      "target_sha256": "a49226ec40f2b57d45c1aea11f3923f0f276112737ef44430230794127562576",
+      "variants": [
+        {
+          "sha256": "02b212e35d2020f6b05e8795db61ab791dca6766303557529bdb1893bbbcee98",
+          "size": 835520,
+          "payload": "delta/0023_0.bin"
+        },
+        {
+          "sha256": "74a59f91175373f9de84b261df7d1aaca0375b553e77525b2dde77ffed238425",
+          "size": 835520,
+          "payload": "delta/0023_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/promotion.arch",
+      "target_size": 39232,
+      "target_sha256": "21f2b191793bb1446a5dd07b8b959ffb8e9f38bed9087e1634a304889c781370",
+      "variants": [
+        {
+          "sha256": "6781c2a144d172901901565545474e986b9423ede68ecf69f7d9f2d378baedf2",
+          "size": 42880,
+          "payload": "delta/0024_0.bin"
+        },
+        {
+          "sha256": "0e8a268eecce7627c102887214c7b2eb147af1717b9f38ca7ab32de861f74ba5",
+          "size": 42880,
+          "payload": "delta/0024_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/schedule.arch",
+      "target_size": 1856,
+      "target_sha256": "e03c0dab1d55bde5986285f673c9edf61254307af15d10590d17cca868d9be4a",
+      "variants": [
+        {
+          "sha256": "f9772a0fc33066fd94070740f8f1804214bc8360cceb2e66830ca05979bdfee4",
+          "size": 1984,
+          "payload": "delta/0025_0.bin"
+        },
+        {
+          "sha256": "8863cda7b44a5160c45e3ed342e91815c1eaebb43c953dc9b5369d2f7da487c1",
+          "size": 1984,
+          "payload": "delta/0025_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/scout_detail.arch",
+      "target_size": 15744,
+      "target_sha256": "378b9d4304aa10e91114ab05b1e6306c7310b7bd5ed5621cd9fc686d39122692",
+      "variants": [
+        {
+          "sha256": "a13881e6f1be9669622db730dd94c02f4d6ebcbefef947838465690c66f473c8",
+          "size": 16576,
+          "payload": "delta/0026_0.bin"
+        },
+        {
+          "sha256": "82b5bcdaaba39d71e02b587590a538fd18e22c29d491a8aee2142d8a01f4b8da",
+          "size": 16576,
+          "payload": "delta/0026_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/scout_list.arch",
+      "target_size": 21696,
+      "target_sha256": "6080940440e9bd987b7177c83a782e76a4f8e514c1fcdad8e210869b96f764ec",
+      "variants": [
+        {
+          "sha256": "96a35c0c2119c92064f9514e7a1aa85649f22f4e4b3fe3d96caf5fe250b02972",
+          "size": 22656,
+          "payload": "delta/0027_0.bin"
+        },
+        {
+          "sha256": "2ec9c0e5aa56f813437b26661fb76c42b61b788b05474e7310917215c3cdbb50",
+          "size": 22656,
+          "payload": "delta/0027_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/setsave_all.arch",
+      "target_size": 5888,
+      "target_sha256": "da4d1f72a24b56b249b0952eb1286e4595f1f991a790837f8888261378cedc2d",
+      "variants": [
+        {
+          "sha256": "5eafb507664d3559426c501f440c0df5ca7efac590e925595e43ba4539000efc",
+          "size": 6336,
+          "payload": "delta/0028_0.bin"
+        },
+        {
+          "sha256": "d83d9a85a674c51d6aec111937df88498e29e0ded7447676030a1e21ed3b8814",
+          "size": 6336,
+          "payload": "delta/0028_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/sponsor.arch",
+      "target_size": 62528,
+      "target_sha256": "d28a7e7436e94e2a9513a0f3b16095128cf24c147f6818d4b89f3f4cb256efc6",
+      "variants": [
+        {
+          "sha256": "bb9a691b986bc9d12f406c08de5c97116021a4961f55a99e64ce7951e854685d",
+          "size": 67712,
+          "payload": "delta/0029_0.bin"
+        },
+        {
+          "sha256": "7c6a56e732d79aa7bab70616cb6d5d4dfb5d5f25da6bb5b7cc7e63e052ba32e2",
+          "size": 67712,
+          "payload": "delta/0029_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/start_manager_list.arch",
+      "target_size": 2944,
+      "target_sha256": "7dd18ccba05f2bdccd0db1298d9be7c35f635baf732b28005f7ea4428b88ed0d",
+      "variants": [
+        {
+          "sha256": "db065179d41c18d19edb3acae57f2caafa62db4961804004dd76844fbccb267c",
+          "size": 3200,
+          "payload": "delta/0030_0.bin"
+        },
+        {
+          "sha256": "fcc5cff863354d6f430fdaa21abde311593ef7447e09a744a04aec9356a599b5",
+          "size": 3200,
+          "payload": "delta/0030_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/start_player_list.arch",
+      "target_size": 2944,
+      "target_sha256": "7dd18ccba05f2bdccd0db1298d9be7c35f635baf732b28005f7ea4428b88ed0d",
+      "variants": [
+        {
+          "sha256": "db065179d41c18d19edb3acae57f2caafa62db4961804004dd76844fbccb267c",
+          "size": 3200,
+          "payload": "delta/0031_0.bin"
+        },
+        {
+          "sha256": "fcc5cff863354d6f430fdaa21abde311593ef7447e09a744a04aec9356a599b5",
+          "size": 3200,
+          "payload": "delta/0031_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/start_scout_list.arch",
+      "target_size": 2944,
+      "target_sha256": "7dd18ccba05f2bdccd0db1298d9be7c35f635baf732b28005f7ea4428b88ed0d",
+      "variants": [
+        {
+          "sha256": "db065179d41c18d19edb3acae57f2caafa62db4961804004dd76844fbccb267c",
+          "size": 3200,
+          "payload": "delta/0032_0.bin"
+        },
+        {
+          "sha256": "fcc5cff863354d6f430fdaa21abde311593ef7447e09a744a04aec9356a599b5",
+          "size": 3200,
+          "payload": "delta/0032_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/supvoice_all.arch",
+      "target_size": 230976,
+      "target_sha256": "68032bd5e457df5f137190021e972ed6f2707c8ad7a4e192a15c20f40dda1669",
+      "variants": [
+        {
+          "sha256": "d1d5afc31ac07dfb0960cb421f7e374cf50bcd7730dc3a3772605c2e2ef56f4b",
+          "size": 249408,
+          "payload": "delta/0033_0.bin"
+        },
+        {
+          "sha256": "9f8da855f9d0583e488bdf63782542ae2732ecb0aeac976db585ec722820b1b9",
+          "size": 249408,
+          "payload": "delta/0033_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/tactics_all.arch",
+      "target_size": 28288,
+      "target_sha256": "18f4f9b782a2c990f33fd25f5bddc9c2b7568ebc84a25cd50e4691dc31a4f601",
+      "variants": [
+        {
+          "sha256": "36bf37873d124c5e3428ca4075e8aa4d8adad182884638df06c3224f1ae71adc",
+          "size": 30912,
+          "payload": "delta/0034_0.bin"
+        },
+        {
+          "sha256": "749523f1e7354cc7aeb34bce702c0fd3161715471e8cfff9bf66c79399e92e1e",
+          "size": 30912,
+          "payload": "delta/0034_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/topic.arch",
+      "target_size": 60224,
+      "target_sha256": "e18218f4b5a15751e4ae83d468b9467d376b106cf8752a30f7736c4a191fb053",
+      "variants": [
+        {
+          "sha256": "96557538582c16f17588eb10e4945139ad8165495282812d18b7cf8718afa08b",
+          "size": 62720,
+          "payload": "delta/0035_0.bin"
+        },
+        {
+          "sha256": "cf9ef1627631f48c4ff71a3232ef1e808b9ef4767937255ebfaebe6dcc71061b",
+          "size": 62720,
+          "payload": "delta/0035_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "menu_level/training_all.arch",
+      "target_size": 93760,
+      "target_sha256": "a0b4e42c79ce19e781ab87c81debc7cd197712a5eb43622a5d598aa9d6841424",
+      "variants": [
+        {
+          "sha256": "c51ddbc545cacdeeabc712d37d8a9e29719e7058f98db59e20a371d4a54fd4b4",
+          "size": 101120,
+          "payload": "delta/0036_0.bin"
+        },
+        {
+          "sha256": "d2d2967f8180d772c53d527db909089819e3da83b59d82c9bdd67f124cbe55dc",
+          "size": 101120,
+          "payload": "delta/0036_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "sb/gm_data.par",
+      "target_size": 215040,
+      "target_sha256": "02a10d0034a5fdc268a07692a109c058dc5b5b77c0269cd4889cb91f9703b72f",
+      "variants": [
+        {
+          "sha256": "f4b7f01c6e9705d9146925c1abdc1c8a5a8ecceddd8c617304253cedecfdac47",
+          "size": 215040,
+          "payload": "delta/0037_0.bin"
+        },
+        {
+          "sha256": "c2f6cc82ba2e4cad3b2eec62f25f9c9354df75f8652d1ce0f3b0972f8ce4b494",
+          "size": 215040,
+          "payload": "delta/0037_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "sb/tactics_setting.par",
+      "target_size": 464896,
+      "target_sha256": "2883f612fb9abb7efbb13791ea97199a3a30bd5fca0515d861ffbbd0a156faa8",
+      "variants": [
+        {
+          "sha256": "1e0bcbb13dd7dd253e76b8d23b7675b0cd6b5837298e647d56b9af574e40932d",
+          "size": 464896,
+          "payload": "delta/0038_0.bin"
+        }
+      ]
+    },
+    {
+      "path": "sb/top_menu.par",
+      "target_size": 526336,
+      "target_sha256": "83f8a2d950009c86805b362d3420c0dac29a58fea40651e56f988a86764612a6",
+      "variants": [
+        {
+          "sha256": "398e8e41de941d7cab9e52c92b1788a031f96051c538d155a7f61cab8077b356",
+          "size": 526336,
+          "payload": "delta/0039_0.bin"
+        },
+        {
+          "sha256": "34498ea382c29f1ea7f9380fa32e39e81135d4a2beb3a3b3fb3228f1701405b1",
+          "size": 526336,
+          "payload": "delta/0039_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "sb2/advertise.par",
+      "target_size": 475136,
+      "target_sha256": "5b7d14096eb29f458bbe6448fa5358d6d917096c63f217583591dc11fe2260d0",
+      "variants": [
+        {
+          "sha256": "eb637606f7a1ce978a0896f33a9ff4759ed2447617401456c241e1b792113b86",
+          "size": 475136,
+          "payload": "delta/0040_0.bin"
+        },
+        {
+          "sha256": "31f40dd73bdc06865b7fcf72c60cefacaeeee873bdf3d3344806303540697693",
+          "size": 475136,
+          "payload": "delta/0040_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "sb3/edit_hisyo.par",
+      "target_size": 1927168,
+      "target_sha256": "c9ba6da676df5ecd329e2d7cc78519067a6a28c25f70bdb2164fb81e987fa549",
+      "variants": [
+        {
+          "sha256": "ca34a0602b5d712222046a720f551cd8600e8506ced0e2a1032f98f7f8a77082",
+          "size": 1927168,
+          "payload": "delta/0041_0.bin"
+        },
+        {
+          "sha256": "d59acf803a6aa5ac5ece20a0f53bf0640fbc3428825fc3534a8d67d81137e204",
+          "size": 1927168,
+          "payload": "delta/0041_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_analysis_abil_data.arch",
+      "target_size": 25268,
+      "target_sha256": "f317360e7467e4811aaa891edc0089d3fe9917632790ca0b041fa61a05b61721",
+      "variants": [
+        {
+          "sha256": "1190f5642e225e003701b6b67c673687f40b25a4b5f699c208670a623b5471ef",
+          "size": 27128,
+          "payload": "delta/0042_0.bin"
+        },
+        {
+          "sha256": "b4b00e04b16c8f33cc1c8c2ba48b37aa558819cade6f57314acca95acb15d773",
+          "size": 27128,
+          "payload": "delta/0042_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_award_data.arch",
+      "target_size": 21132,
+      "target_sha256": "b219cae6f0ef4b53a532aeaa2565bf7b781b4f54af321781b05e16dfa62dee48",
+      "variants": [
+        {
+          "sha256": "dc2b6dec0ac5f0fa3cb75adc3e8e70e5f9231921419c1b7e3fb7f078e9971742",
+          "size": 20100,
+          "payload": "delta/0043_0.bin"
+        },
+        {
+          "sha256": "446eb5cf3d0ae2873a6879df640cb735bf45cdc5147c51c500dc38cd398423cc",
+          "size": 20100,
+          "payload": "delta/0043_1.bin"
+        },
+        {
+          "sha256": "e1fd09fd1144e956a620ead7c6cd5d71ed19b13ad54c31d2ab781c366baa72df",
+          "size": 19928,
+          "payload": "delta/0043_2.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_clubedit_data.arch",
+      "target_size": 186664,
+      "target_sha256": "9cf5a0c76ab9a941d74990fc35b740a97ab1c76ed5aad2a1115f5a858b8c0469",
+      "variants": [
+        {
+          "sha256": "17d4dd3c8c5d34c850e42cabc211cb57da73781debf726fa8126ffed6ca37ecd",
+          "size": 186392,
+          "payload": "delta/0044_0.bin"
+        },
+        {
+          "sha256": "efe3216bca568b735e065ea9cade105a7caf297a79cd8116334e44905626d083",
+          "size": 186392,
+          "payload": "delta/0044_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_clubrecord_data.arch",
+      "target_size": 42068,
+      "target_sha256": "1dcdde5bd949664d8aae025350d05c782d5a9c02d7355badc89293c2e44ffd6d",
+      "variants": [
+        {
+          "sha256": "dc37c6e7df3c47d767707ca3ed49242100bdab410c2225ca1f6f43ff18c53138",
+          "size": 38344,
+          "payload": "delta/0045_0.bin"
+        },
+        {
+          "sha256": "c9779f573a7885128dffc9b896826b8cfa50b994d7ced7dcf6c3dff3c05c5f78",
+          "size": 38344,
+          "payload": "delta/0045_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_compe_data.arch",
+      "target_size": 12860,
+      "target_sha256": "cdcac9dec9ee298dd2228910a7f60c6e90cdf846415b4e43ef480b8f27789312",
+      "variants": [
+        {
+          "sha256": "1c55f392fb23e51d0be74e4cf7026546c13ebac5d9152b4c1c75048e0181e9f4",
+          "size": 12736,
+          "payload": "delta/0046_0.bin"
+        },
+        {
+          "sha256": "dec8510ca0bb0b6a6cfde5bd62849eb6b6afd4b8560516c5409b91fa7ab6e697",
+          "size": 12736,
+          "payload": "delta/0046_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_conference_data.arch",
+      "target_size": 39332,
+      "target_sha256": "e5b968e30f65383a6ff9d6b648f7f831adc44f68e11075c8877e9be14d3a14b5",
+      "variants": [
+        {
+          "sha256": "1704047588cc6bfd849c73abb8f3a7399b5b1283cb2f188cd49481e8cc7a181d",
+          "size": 38732,
+          "payload": "delta/0047_0.bin"
+        },
+        {
+          "sha256": "d8a0933f29565796204959434a3c3807728cb870a87b15a9549ae56a86f5cdce",
+          "size": 40364,
+          "payload": "delta/0047_1.bin"
+        },
+        {
+          "sha256": "91be3158c0f8bd49549ad043a05e0b770b6433da659f4c4469106c0937d3492b",
+          "size": 38732,
+          "payload": "delta/0047_2.bin"
+        },
+        {
+          "sha256": "09967547b8d7411403bf0296a4ceded5c15581ce8ca1b653bb48fa80361bcc1e",
+          "size": 39332,
+          "payload": "delta/0047_3.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_ending_data.arch",
+      "target_size": 340,
+      "target_sha256": "0762693117ee170a4c85c1739626c325b69bd60d497a1a926d344f8a769a51a0",
+      "variants": [
+        {
+          "sha256": "f9ee608fdd6f02ed532227fa1329ea0857b2f50ce0f85c0175d82c1660a6cced",
+          "size": 360,
+          "payload": "delta/0048_0.bin"
+        },
+        {
+          "sha256": "f35a6eabbc6c393292466e160a3200262029d7a6e3a3a5ccffab15094e48c378",
+          "size": 360,
+          "payload": "delta/0048_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_gmedit_data.arch",
+      "target_size": 18744,
+      "target_sha256": "81915f7c6b7731629cdcfa6836cf623d7981cdf7125bad2b50d7a9a41c64152e",
+      "variants": [
+        {
+          "sha256": "f1602bdbea3e081a9895dfe9446aa305e08071620a478e8678f01cfb1b63e296",
+          "size": 19924,
+          "payload": "delta/0049_0.bin"
+        },
+        {
+          "sha256": "936922a01ad0f37017ae1b75599bb1d29c15bf939934cb05e170b0a2b0965518",
+          "size": 19924,
+          "payload": "delta/0049_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_himitu_data.arch",
+      "target_size": 1116,
+      "target_sha256": "6c4ed0dba2949a50354f7dc8181f0faa809a42e32e967e28fcaaf48b42cd9cde",
+      "variants": [
+        {
+          "sha256": "47ee308cec7da76e61bfbf34acc13fe8c5b65dccbf3ed17ab9dc148b05cc69a7",
+          "size": 1152,
+          "payload": "delta/0050_0.bin"
+        },
+        {
+          "sha256": "c37324566da251e54e6909caa3aa57245dc5804ec6a961190b24c19341e71b93",
+          "size": 1152,
+          "payload": "delta/0050_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_keiyaku_data.arch",
+      "target_size": 3148,
+      "target_sha256": "11766740bc0d52e0bab070b46e8d69c8db915c093a50cf8be8175df75d5b5a42",
+      "variants": [
+        {
+          "sha256": "dce0eab377277338a656020c863c72934d4efc50b9bb0561035273e4ceefb6e7",
+          "size": 3296,
+          "payload": "delta/0051_0.bin"
+        },
+        {
+          "sha256": "d499df6fa670157d19b4b42aaaba57103a2e59644dbebc6ba45c20025e1ff9c5",
+          "size": 3296,
+          "payload": "delta/0051_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_magazine_data.arch",
+      "target_size": 282100,
+      "target_sha256": "6a82988528c60979a5c7e5e76cbc8e293001e7061ae8298f4b26185dd55f7733",
+      "variants": [
+        {
+          "sha256": "27a8b4277271a071fcdfbbea5ae970d5c11ea79b95f6e880978c37e18894872a",
+          "size": 256280,
+          "payload": "delta/0052_0.bin"
+        },
+        {
+          "sha256": "60faf1c35536540ccfb6dac01030926d6b95121a1569be055372bde1d12e6361",
+          "size": 256280,
+          "payload": "delta/0052_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_match_data.arch",
+      "target_size": 38736,
+      "target_sha256": "3f21d1e2fc31c61eb48c37d93915a3dc8108d96d7966de0d2999589cf927caa9",
+      "variants": [
+        {
+          "sha256": "f22c826cb607eac5730e56ec5a94f3d4d80041e7fed43744cda9b8af43340fe8",
+          "size": 40948,
+          "payload": "delta/0053_0.bin"
+        },
+        {
+          "sha256": "c6c538a8576ff886da7a919996b8d5ff0381df8574877af5c7aa270de8d2b9d3",
+          "size": 40948,
+          "payload": "delta/0053_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_pl_search_data.arch",
+      "target_size": 1108,
+      "target_sha256": "8bd3a5015d0c8954f8dbc54701a2c36934c53d3f2e7d6a5aa1ae37460526903f",
+      "variants": [
+        {
+          "sha256": "79062c893dde055bbc96c84d77167b43fa1d3075b0d5406b57832b1a52df928b",
+          "size": 1188,
+          "payload": "delta/0054_0.bin"
+        },
+        {
+          "sha256": "eac7c0e54f47780b790ecafb510b0ac32e20a2b10cbbbe21f099274855cf50ba",
+          "size": 1188,
+          "payload": "delta/0054_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_pledit_data.arch",
+      "target_size": 247476,
+      "target_sha256": "be7a13b669b4189420689aadeab13a92622973c3069c0ba86ac942e6d6634b23",
+      "variants": [
+        {
+          "sha256": "2ea444d5f89110e6f938150efff278d12ce4468cb44924e2916bc514af77f426",
+          "size": 269024,
+          "payload": "delta/0055_0.bin"
+        },
+        {
+          "sha256": "e9493d019eb3b7a5f8cafe0804f9489fa757e126a0c24e44e842b6b6f431ac21",
+          "size": 269024,
+          "payload": "delta/0055_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_practice_data.arch",
+      "target_size": 31284,
+      "target_sha256": "b7c053b89282842c8db758a841e8093f14acaa1e0dc7574f589f8fc973deb04d",
+      "variants": [
+        {
+          "sha256": "66b7f7988f3444ed5b247216d609a376cae46e03d17ebacf8ef534228cbf77f8",
+          "size": 33880,
+          "payload": "delta/0056_0.bin"
+        },
+        {
+          "sha256": "1eec470a4a26fc73388cdd54b3887dc29801e55d380ea07b4ec998d2d48d11c1",
+          "size": 33880,
+          "payload": "delta/0056_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_resume_hisyo_data.arch",
+      "target_size": 808,
+      "target_sha256": "0804bcbb019698f22c87cd73bee543808c5c95a04f5ca558c8a9db3746e5e812",
+      "variants": [
+        {
+          "sha256": "7d616697e973c60be2136e80918ddcf6fa34963bd24245c04a23e34199a0e56b",
+          "size": 820,
+          "payload": "delta/0057_0.bin"
+        },
+        {
+          "sha256": "507ff8b1e493ee7832b4f3cdac74c132af76cdf1eec3615618979e1e3e5389d2",
+          "size": 820,
+          "payload": "delta/0057_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_retire_data.arch",
+      "target_size": 4636,
+      "target_sha256": "926caee6d9f9355bef7afb8af6d734b91e883defd045b388db8bff1fc61d8c07",
+      "variants": [
+        {
+          "sha256": "c1ca9f4bdb714a627bf12450be65052deb3766c831f859d740baef694d964a64",
+          "size": 4804,
+          "payload": "delta/0058_0.bin"
+        },
+        {
+          "sha256": "695828a6bab80b6743c7fdaf362849fa7aa9ebcea59ba0fa32e8d3238679d4ea",
+          "size": 4604,
+          "payload": "delta/0058_1.bin"
+        },
+        {
+          "sha256": "22c397127bc923497353ee07e8b40fff38198e5a1c09c9c21b732824db7c74de",
+          "size": 4804,
+          "payload": "delta/0058_2.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_shisetsu_data.arch",
+      "target_size": 9500,
+      "target_sha256": "a8feb37e04d7bd178208b74b8415bd57e0312aee4526398285539f1ef55ece98",
+      "variants": [
+        {
+          "sha256": "5982c90dedc5665fb58503a76f0e2f23258ef059174ed36a36b94bb7a1d65361",
+          "size": 8876,
+          "payload": "delta/0059_0.bin"
+        },
+        {
+          "sha256": "5afabd0131ebd270015c52e5884c2d0a6eaccae8fc04802466d6d0e791f597e7",
+          "size": 8876,
+          "payload": "delta/0059_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_sponsor_data.arch",
+      "target_size": 62376,
+      "target_sha256": "9a3a66d25b50e7884e3b7d9f05a3f6c0dd56236501416b1735c0be0bbcc153ed",
+      "variants": [
+        {
+          "sha256": "3f50dc09e183b3ed391e167aedd1a0ff696be1ad820a46ecd19d79ba632588f2",
+          "size": 67584,
+          "payload": "delta/0060_0.bin"
+        },
+        {
+          "sha256": "70e7013f06f95b88ac039b6db67f53dc71ef33be12917de5d7fd8acac41b5be2",
+          "size": 67584,
+          "payload": "delta/0060_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_static_data.arch",
+      "target_size": 953728,
+      "target_sha256": "0748f2215876d3aaac9778917ada4c1b5bb152d659783fc3b748ee95dadcd09b",
+      "variants": [
+        {
+          "sha256": "9d79c69a2bfb7d45c0fe4de5c1d747d1cedf2a769914769ea138f1fe8c984467",
+          "size": 1038908,
+          "payload": "delta/0061_0.bin"
+        },
+        {
+          "sha256": "b7d19465d6026f265c2ac2e9d11de996c70b3861b504af8e9bdff5af4ea65613",
+          "size": 1038908,
+          "payload": "delta/0061_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_study_data.arch",
+      "target_size": 344,
+      "target_sha256": "9735b3cfb2fae833ae540bc9e33572c5fe2242076bea512072e79a11ec36bfe8",
+      "variants": [
+        {
+          "sha256": "44dcca4fe49111c0878c332f1993d39d51d81e0d2dd2ca7040be0f030de43216",
+          "size": 376,
+          "payload": "delta/0062_0.bin"
+        },
+        {
+          "sha256": "69581932ce9c8f58d43bee8c8c22ff7e07161edcd0182ca898b583da81324f59",
+          "size": 376,
+          "payload": "delta/0062_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_supvoice_data.arch",
+      "target_size": 231228,
+      "target_sha256": "d24bac6605ffd03640e6f7e3cdf7eec99d5548d4cd58e93e481daeb66f79ac66",
+      "variants": [
+        {
+          "sha256": "5eb30b2c99f6b7ea4661e88e4a9a1c242cbf5e8df6990450abe1855eb82203a2",
+          "size": 248932,
+          "payload": "delta/0063_0.bin"
+        },
+        {
+          "sha256": "e7d502ec5c639aa2222f97d03b061e91f5e58264527bb76dc75e0759a11db61f",
+          "size": 230468,
+          "payload": "delta/0063_1.bin"
+        },
+        {
+          "sha256": "4edb3c1877d34d3e376e2356f51966d4cdd26d058017deb0f30a5dc10c072594",
+          "size": 248932,
+          "payload": "delta/0063_2.bin"
+        },
+        {
+          "sha256": "35c47127d7f5aad2ea41faba5588e47d47202e98926c03fe6002247df307258f",
+          "size": 231052,
+          "payload": "delta/0063_3.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_tactics_data.arch",
+      "target_size": 5756,
+      "target_sha256": "7cf5f1f32f9da057f4901676297eed9469ae45ff6657d96bc8905cf57e7542dc",
+      "variants": [
+        {
+          "sha256": "dd8f59a0d5ab276a8db6770cc2555b9d2864e63f07ef4a7ec832dc954e38c04c",
+          "size": 6496,
+          "payload": "delta/0064_0.bin"
+        },
+        {
+          "sha256": "ce2c58ffeb2a6fcbe49871eeb51b3fbd94cc431779c101dc991f1a9b1422f82a",
+          "size": 6496,
+          "payload": "delta/0064_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_wakate_data.arch",
+      "target_size": 138100,
+      "target_sha256": "995238d47c440c32ec135a84cc52dee0e692f408e85fd74e7d6deaf9bb59bbe2",
+      "variants": [
+        {
+          "sha256": "986c1ed2d8f7c9e68803884609b8aebee380d91f91c0b4cb072fbba92fcaed45",
+          "size": 140460,
+          "payload": "delta/0065_0.bin"
+        },
+        {
+          "sha256": "917bf4dd76f4a4aea09e642b3ad7e08b27b28d458eb8bdf27aff42adcc045163",
+          "size": 148420,
+          "payload": "delta/0065_1.bin"
+        },
+        {
+          "sha256": "eaba595a65794e876b7df461957398b8eb01689f96942a4e35060d41fbfc9dcf",
+          "size": 140460,
+          "payload": "delta/0065_2.bin"
+        },
+        {
+          "sha256": "f0004951e22220afe2d2d442bfd12137ffc91081697b1606b7e44c68bb0be8e5",
+          "size": 142240,
+          "payload": "delta/0065_3.bin"
+        }
+      ]
+    },
+    {
+      "path": "text/txt_youthmenu_data.arch",
+      "target_size": 80,
+      "target_sha256": "44a34e474fa65bd10eebed74ca297b5eab2bcd1897c58c8d5d295648bcb57056",
+      "variants": [
+        {
+          "sha256": "59daf3f957f1a8e91e3b06132adcb0673d93247d5de29d6fd6dad68da099981f",
+          "size": 80,
+          "payload": "delta/0066_0.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/agent_name.txb",
+      "target_size": 8020,
+      "target_sha256": "876e2e2d0855c3c8905dbfb2b5f03518c2ec1ed96ec71d084877b570d2c486ff",
+      "variants": [
+        {
+          "sha256": "b99538bdcbb4cdd6fc5d3b40372b19360349599b582fbc0bd8bd65f34c9c014e",
+          "size": 9024,
+          "payload": "delta/0067_0.bin"
+        },
+        {
+          "sha256": "74774708839a0616fdd1204401bf4d0d565b0bef555d063814eaa56cafa74f9c",
+          "size": 9024,
+          "payload": "delta/0067_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/camp_name.txb",
+      "target_size": 1320,
+      "target_sha256": "af652a1c56f3126edfc8e255f05d00d4151f745c34c318622e3d4c378d600dc4",
+      "variants": [
+        {
+          "sha256": "1f21fb84ff311dfec0058498d55fa9389a688333ed0996ffb2729cb21909b240",
+          "size": 1436,
+          "payload": "delta/0068_0.bin"
+        },
+        {
+          "sha256": "e4a4f8e0d9b06a3e818c4721267c0e272ee622ecc8c33a006f9f24572ac1fee4",
+          "size": 1436,
+          "payload": "delta/0068_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/camp_text.txb",
+      "target_size": 4272,
+      "target_sha256": "ee3a3d14249635123a0e30168b236d06e8580fa9941fa3133be79d2ba647a957",
+      "variants": [
+        {
+          "sha256": "d0abaa6edd526a2d30805de220ead6714dc4c22a96a56b069144d5d84ea427c6",
+          "size": 3772,
+          "payload": "delta/0069_0.bin"
+        },
+        {
+          "sha256": "1b58f424f2d50ac4d40fd10c1a1335dc34b6ea22726cf1fe3bff3d0c1a804f42",
+          "size": 3772,
+          "payload": "delta/0069_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/camp_type_name.txb",
+      "target_size": 228,
+      "target_sha256": "180b1e0ee50901cf087805e2671652a1c11a946f17dc43cf63a290a9d613c555",
+      "variants": [
+        {
+          "sha256": "73b2dec3f6815c634ec08c28376ea1d92939291592ef46a7a0041ba621d0db18",
+          "size": 228,
+          "payload": "delta/0070_0.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/dairi_name.txb",
+      "target_size": 596,
+      "target_sha256": "331b835c0497f8f4ae3b7a652f84b097331f23b984656942a96d04a625de7e95",
+      "variants": [
+        {
+          "sha256": "713cc78fdfceefcde172e34b7052cb8f151a11294684fb83e84ad05eb76fca91",
+          "size": 692,
+          "payload": "delta/0071_0.bin"
+        },
+        {
+          "sha256": "1a8fd5ffebb42c4f30ab81c5fca308fadd1f4013df3fa462f1d76b5374e1a934",
+          "size": 692,
+          "payload": "delta/0071_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/dairi_pack_name.txb",
+      "target_size": 340,
+      "target_sha256": "57dfac00687a73f10b2906ab1d6dd1e3395af9b770e8cec40f5fd2c6c40b651c",
+      "variants": [
+        {
+          "sha256": "de57182aaf8365a125265b79c4beef22e4513c9273eb472b1b52d01cd2d7b14d",
+          "size": 420,
+          "payload": "delta/0072_0.bin"
+        },
+        {
+          "sha256": "22aa88dfc4e99e4dcddefcb40faec130da7fb9b7130e63241352fca4cd9b5399",
+          "size": 420,
+          "payload": "delta/0072_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/dairi_pack_text.txb",
+      "target_size": 420,
+      "target_sha256": "b1112d82b67cea965573233f85fc43f9ac52e6b8e6be915da4fed7873cb5ee18",
+      "variants": [
+        {
+          "sha256": "b4d3f29c23dd4de2e5fb82d2e61c454771e3e81ff0ca5424262436c5001f051d",
+          "size": 468,
+          "payload": "delta/0073_0.bin"
+        },
+        {
+          "sha256": "39d54e79302e9cbca7bffec739521d8994a0c444c8c9ada86961c97648ac76de",
+          "size": 468,
+          "payload": "delta/0073_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/dairi_text.txb",
+      "target_size": 1464,
+      "target_sha256": "09d138fde17f354086f91df0a01b8b9419e2c0dfcb972787a5eae9165829b446",
+      "variants": [
+        {
+          "sha256": "ae4b66d5c0afc4028f62782c6d5d8ae9fb192f39cd9abaa830a18dcd6cbd6948",
+          "size": 1476,
+          "payload": "delta/0074_0.bin"
+        },
+        {
+          "sha256": "f809610a934e4ac957bb12faf66c3d33b3fe7ccfd60fad8e4c272e2d7e7b5d7e",
+          "size": 1476,
+          "payload": "delta/0074_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/darby_match_name.txb",
+      "target_size": 4488,
+      "target_sha256": "fe339d68e8e4132c7eff3c08b154c1dfba732c1730351d601e7dc8aed75681d3",
+      "variants": [
+        {
+          "sha256": "733f4db90ba61bf5f3212ce56e6982ae3dc2a737b74df96b3a80b5de5cbe5c88",
+          "size": 4900,
+          "payload": "delta/0075_0.bin"
+        },
+        {
+          "sha256": "5748bf1bc6fdaa906b842cd9a4be49bd3f20202cf043614305ea566ad6dad7f4",
+          "size": 4900,
+          "payload": "delta/0075_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_character_name.txb",
+      "target_size": 392,
+      "target_sha256": "ff2c662feb360746ea7753bca030083fd6531c6a3cbf164273fcfdcdac6489d2",
+      "variants": [
+        {
+          "sha256": "a42f974ad21bc6774f3e4f71be7ffd190606a5b44aba1935f0beae897bd6c3be",
+          "size": 364,
+          "payload": "delta/0076_0.bin"
+        },
+        {
+          "sha256": "7d251ef7ac32e9a3f35225e8ac60be7e6a7203d72499bb094e4abfba6c579337",
+          "size": 364,
+          "payload": "delta/0076_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_club_edit.txb",
+      "target_size": 1376,
+      "target_sha256": "49d04e366e3b20fa34c6c24f97621c6764a56b65a5adb8abba4f08fd2d32cfd1",
+      "variants": [
+        {
+          "sha256": "bcb7707e31b8f39d9381ffdbb69bd011f336b0a7c86de5ce2d40f99e0e95b704",
+          "size": 1460,
+          "payload": "delta/0077_0.bin"
+        },
+        {
+          "sha256": "c3f84888006b1af43de4366af8dd2daf4c24793a92b9f080e83ee54e6aea40d7",
+          "size": 1464,
+          "payload": "delta/0077_1.bin"
+        },
+        {
+          "sha256": "a534dd3087373c7b0c8075a403852a8977271dbab82e86703ad39295ef369e1b",
+          "size": 1460,
+          "payload": "delta/0077_2.bin"
+        },
+        {
+          "sha256": "d042b136a726f011fcb1638611af15e1a9bb4409dd5b78b01d1d7b67eff0efdd",
+          "size": 1368,
+          "payload": "delta/0077_3.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_conference.txb",
+      "target_size": 25436,
+      "target_sha256": "d75df2c083e6259a5aef987686a7d75bf5c33b2c34812a38d9d78124edc477df",
+      "variants": [
+        {
+          "sha256": "aaf3630de47b96ca423fd6f83f4af53beef8e9852971861ec8578c39354467d2",
+          "size": 25284,
+          "payload": "delta/0078_0.bin"
+        },
+        {
+          "sha256": "1ce6521ef71c2c3ad58c7b23a4118bfa2ba34878f6a8a26c3860cd5838e24cf9",
+          "size": 26436,
+          "payload": "delta/0078_1.bin"
+        },
+        {
+          "sha256": "7cf9e6d31e7d6fd600b4ddded88685182f1245cd31aa822a17fa03802a242dff",
+          "size": 25284,
+          "payload": "delta/0078_2.bin"
+        },
+        {
+          "sha256": "939e23f184bcfbdf3493e5ed245989a433321714f11104af94de4887002a95d1",
+          "size": 26080,
+          "payload": "delta/0078_3.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_game_after.txb",
+      "target_size": 65204,
+      "target_sha256": "383f1c3fcbf746ad22b15faa13dbb8ba78598ba5b193553fd078679648b39723",
+      "variants": [
+        {
+          "sha256": "a9abe770166de28caa4abef77a0b05be330a00827555c1d10140b18450d029c5",
+          "size": 65928,
+          "payload": "delta/0079_0.bin"
+        },
+        {
+          "sha256": "6e0a9e28db302cc75b46192fd679673f8d3530a51eba95ad8b814693e1d97891",
+          "size": 64876,
+          "payload": "delta/0079_1.bin"
+        },
+        {
+          "sha256": "0454c0046ef96b9ab36f3c16570c45f1b52f4891acaafbdc7dd79b713fe8d330",
+          "size": 65928,
+          "payload": "delta/0079_2.bin"
+        },
+        {
+          "sha256": "416ce70abc5876c170384478721dcc6a5a0fb999d674e8d2e7016de69f48fe5b",
+          "size": 64872,
+          "payload": "delta/0079_3.bin"
+        },
+        {
+          "sha256": "a94f7e761db0b9cdf6fedd839e11e382b6d69c702815460d76b94cc9b852cb2d",
+          "size": 64772,
+          "payload": "delta/0079_4.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_game_before.txb",
+      "target_size": 47728,
+      "target_sha256": "0579be01209cbfd324fa3f02df41b62a4199e75c8a62c61ffeb082f55deca288",
+      "variants": [
+        {
+          "sha256": "50cedcd7640d1af3540546a51375e1f6dd0bd2dcd88999fb12be98c05337625b",
+          "size": 48640,
+          "payload": "delta/0080_0.bin"
+        },
+        {
+          "sha256": "b5fc83fa6d8b3ad901365e3f174de5a484ccf12061e5e718e317e3ed94dd8b45",
+          "size": 48112,
+          "payload": "delta/0080_1.bin"
+        },
+        {
+          "sha256": "8ab68e4a2450f4bf6d449dcf215b0366b25a2555db07217518780623b0f2a19d",
+          "size": 48640,
+          "payload": "delta/0080_2.bin"
+        },
+        {
+          "sha256": "679f74258ec2e018ca56d2ce381dfbabc656daeb7e395ff562d6e20d4e9c7264",
+          "size": 48088,
+          "payload": "delta/0080_3.bin"
+        },
+        {
+          "sha256": "7c90f8a7df4a4b17cc2a39a0856e6fa3da9175b26c2f44446e65437a3c9c245c",
+          "size": 47772,
+          "payload": "delta/0080_4.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_growth_person.txb",
+      "target_size": 3908,
+      "target_sha256": "d1c75062327c3fb23af2bfb6ca3f8a24982dc652a5b917dc404bafc45de02c18",
+      "variants": [
+        {
+          "sha256": "c64fb1188a7e19aa417499b8c52c5adca5badb25ad746dc116e0893e96a74198",
+          "size": 3312,
+          "payload": "delta/0081_0.bin"
+        },
+        {
+          "sha256": "33353860db72968742c119ff54a2fcf4c66eda677dfcfddd9880d9e6b0511626",
+          "size": 3648,
+          "payload": "delta/0081_1.bin"
+        },
+        {
+          "sha256": "bfbffa051041627ee3aec69ef604a77f8681f135a8df42724c5d819830306193",
+          "size": 3312,
+          "payload": "delta/0081_2.bin"
+        },
+        {
+          "sha256": "06843c370072592f9538751ca721d74b319783debb070be1fa2d2e8e2997d803",
+          "size": 3668,
+          "payload": "delta/0081_3.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_growth_team.txb",
+      "target_size": 1504,
+      "target_sha256": "5ca848dfc3c219d4457bd5569c8e91d9686495e94d6d7ef0b74185cb5dadd737",
+      "variants": [
+        {
+          "sha256": "3be8253fca7239d018bbd7deef5634a9577312ca01252658256273e30a20ec39",
+          "size": 1516,
+          "payload": "delta/0082_0.bin"
+        },
+        {
+          "sha256": "2315d1d6e59e4477087aedc62e993a264f439170f9f8c70974564a0141455e05",
+          "size": 1608,
+          "payload": "delta/0082_1.bin"
+        },
+        {
+          "sha256": "22d1feb0d0f946cf6c2bc235bb55ed36cef5777fb3edcba94177f26585b0a03b",
+          "size": 1516,
+          "payload": "delta/0082_2.bin"
+        },
+        {
+          "sha256": "e0644ae8691b2ac3d4c4a34f9b1b8e208c8a42adb72491ecbc44f4b2ce3842ce",
+          "size": 1588,
+          "payload": "delta/0082_3.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_infomation_text.txb",
+      "target_size": 432,
+      "target_sha256": "a754c19d35cd90c18dca6ceb6ce5fb16da9a3e293a46812298a9c31d8c721a06",
+      "variants": [
+        {
+          "sha256": "106e1bf944a9a5f4cc427a1fb7ca2a667bc549ef5044efe620683df2f47deade",
+          "size": 464,
+          "payload": "delta/0083_0.bin"
+        },
+        {
+          "sha256": "5607b3b3d6c556c5b241164d6249986cd7fffa7beb541fe62b05b711b8c314be",
+          "size": 432,
+          "payload": "delta/0083_1.bin"
+        },
+        {
+          "sha256": "decc38f101265dc1a0d9d1e7a9f2f13ecbd2b1721d8512174da6a1d81aa2a280",
+          "size": 464,
+          "payload": "delta/0083_2.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_introduction.txb",
+      "target_size": 28,
+      "target_sha256": "2f485dae09f266e5fb8a59a533ff1d0762ac11bf92b0bb9570ed732ea03a7684",
+      "variants": [
+        {
+          "sha256": "9e850c05e016e9dde4dbc0c3fb917bd80edd3befcea58a633d60472d5318f78d",
+          "size": 28,
+          "payload": "delta/0084_0.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_locker_room.txb",
+      "target_size": 9396,
+      "target_sha256": "790868a6bf18fe872dbee8e02e93f5f81ce600fd4e01898511933fe6e2ddba2a",
+      "variants": [
+        {
+          "sha256": "70108ba303170205c943348234a92453176d4995880c81cfb3a876495c8ea34a",
+          "size": 9040,
+          "payload": "delta/0085_0.bin"
+        },
+        {
+          "sha256": "d6cbb04b51487e46afa8ac79adc0a7969b5f1b9bf50dd75abc5d23211110e578",
+          "size": 8852,
+          "payload": "delta/0085_1.bin"
+        },
+        {
+          "sha256": "1a2472204dd1b161bd7176cdf2f3e73e0c343d2ed42acb5b8880a513bc94dba5",
+          "size": 9040,
+          "payload": "delta/0085_2.bin"
+        },
+        {
+          "sha256": "cb8f0b16d12eebca4ec4f83866d97a3ff6e3992586e2abebb99a809e035ebd1e",
+          "size": 9012,
+          "payload": "delta/0085_3.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_negotiate.txb",
+      "target_size": 62488,
+      "target_sha256": "2ce424eebcdfe1f7ce099a6b97ae9d656f4fbbbf50c2ad188200b845c625ce8b",
+      "variants": [
+        {
+          "sha256": "ae7674bfcf2cf5ed9562d5dccd6aff635e45126ddb9c87af6aea9523c7c6ccba",
+          "size": 65044,
+          "payload": "delta/0086_0.bin"
+        },
+        {
+          "sha256": "bbd61bf27b9d998f5ead1cdd6160819385b6453bcc880e0bb50d1797fb3af77e",
+          "size": 60792,
+          "payload": "delta/0086_1.bin"
+        },
+        {
+          "sha256": "fb9f56225395e48855a3c986caf5cd3e50897c07563c1ff7fd834e708cc806c3",
+          "size": 65044,
+          "payload": "delta/0086_2.bin"
+        },
+        {
+          "sha256": "999ae2b3fa43b115fa36d01dee5f1907f3e77b0652bc25cbbcbc94d196d98bdb",
+          "size": 62120,
+          "payload": "delta/0086_3.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_next.txb",
+      "target_size": 8480,
+      "target_sha256": "dd746568403ea7aa81a1053a051047b52faadd2495e1b2ff5207ff0417642f8f",
+      "variants": [
+        {
+          "sha256": "3b81ba1e1c6d561d2e32a0df1e64caaac81f9471ecdcb454e578686503deb958",
+          "size": 7812,
+          "payload": "delta/0087_0.bin"
+        },
+        {
+          "sha256": "28169f0aaef5579aa43fe9fa2050bfeec8fd965197eafcf68324442a46bfa2da",
+          "size": 7916,
+          "payload": "delta/0087_1.bin"
+        },
+        {
+          "sha256": "f7f9dda525580074aeb2bbeabe84a47576e85137a1181b73a47d73d2a5750316",
+          "size": 7812,
+          "payload": "delta/0087_2.bin"
+        },
+        {
+          "sha256": "a08d67ba68d0c8b906a145bf5b081c856eac3f075c800d51b2a7142dc69fa11f",
+          "size": 7940,
+          "payload": "delta/0087_3.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_other.txb",
+      "target_size": 6356,
+      "target_sha256": "eaf3ed99217b2864de8bcf7294ffe285a8aea8f25504a0c969c4760eee046a09",
+      "variants": [
+        {
+          "sha256": "bc5fbb786bfd6b8b0d8abe6a8479e596473f54ac8dc22f959e78e6fd1f0c2abc",
+          "size": 6364,
+          "payload": "delta/0088_0.bin"
+        },
+        {
+          "sha256": "dd9d0cf1b37edf74f1d9973293ebf06fc777d1c94122f65653c56d911d205e50",
+          "size": 6336,
+          "payload": "delta/0088_1.bin"
+        },
+        {
+          "sha256": "a5f452705747543c66c007439020606b6f61311405fa8386d339d98597a4b7ed",
+          "size": 6364,
+          "payload": "delta/0088_2.bin"
+        },
+        {
+          "sha256": "fccf2c504d286f025751e29bd9d2c72441d788ee3c4c347cda16794228f29646",
+          "size": 6340,
+          "payload": "delta/0088_3.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_talk.txb",
+      "target_size": 114968,
+      "target_sha256": "3ae01500e5c2b7dc6cc59353c4460495275ccac10a9a72cbc2cd9e095ca3a769",
+      "variants": [
+        {
+          "sha256": "cfc34373722a64777283a8ef6edcf5cc8912e6fcb08b355fe0e476bfc28bd415",
+          "size": 117796,
+          "payload": "delta/0089_0.bin"
+        },
+        {
+          "sha256": "e2550004e09c67c947e5a33909ca0e75dfc80e461cc86a1387f252ddf30ef52e",
+          "size": 116624,
+          "payload": "delta/0089_1.bin"
+        },
+        {
+          "sha256": "ff3aad36062368c7c30d84e07efc2d9a8089823b16d1e2f7515811c185a489b4",
+          "size": 117796,
+          "payload": "delta/0089_2.bin"
+        },
+        {
+          "sha256": "3ddd333b7dea258411a13dd1e10d3a17e0d56ddb6dd5fab68fd72726eb5a4997",
+          "size": 116616,
+          "payload": "delta/0089_3.bin"
+        },
+        {
+          "sha256": "a48b47c4f1950510263fbae1f42574ebc81e0ca3b9c52e5018bb077f8b1f910e",
+          "size": 116336,
+          "payload": "delta/0089_4.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_turn_in.txb",
+      "target_size": 432636,
+      "target_sha256": "3329c700842b2a3b71379c89b257879a13e049bb5cdbe353d5edaccbae250983",
+      "variants": [
+        {
+          "sha256": "7e94aa9dec4004177a12a1fe266ca793ef00cd3027a549a4ba3ce12590b097aa",
+          "size": 435908,
+          "payload": "delta/0090_0.bin"
+        },
+        {
+          "sha256": "bdb4ed9539dc4b888de3782026f0079e92c65a9010fe11b2b1ca47715648214a",
+          "size": 436732,
+          "payload": "delta/0090_1.bin"
+        },
+        {
+          "sha256": "c038c3e019f41d01cd34636c3d0451a196f31c6997c39b619366bb2ad95ad9bb",
+          "size": 435908,
+          "payload": "delta/0090_2.bin"
+        },
+        {
+          "sha256": "bff23611b389ece6597ea3fb58fcf8b7455a29b7cd246f6e90e750015a7389b9",
+          "size": 436732,
+          "payload": "delta/0090_3.bin"
+        },
+        {
+          "sha256": "fe8f80c8fb5a8b2d0f0d6fdfb597dde67b007d139d3ba0ae7328e8c8ce3104c5",
+          "size": 434800,
+          "payload": "delta/0090_4.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_turn_out.txb",
+      "target_size": 129752,
+      "target_sha256": "979888f9af46b9802c30f92b8e961a8efb3d8ff41b72757bb586fa113556f53e",
+      "variants": [
+        {
+          "sha256": "fcae474b3f1f349b05b6b6c207b1a631e0fe3cf87a922d8ec10c5644ca283cb6",
+          "size": 129672,
+          "payload": "delta/0091_0.bin"
+        },
+        {
+          "sha256": "e97e9e69c3e29f3c48dcf58799bac5d676a58adf7c95347a12a38b3fa494b8e0",
+          "size": 128840,
+          "payload": "delta/0091_1.bin"
+        },
+        {
+          "sha256": "95ab26874b8fe57192128c3ed4dea8dd5f13a252ceb20e3ce50802176def8d24",
+          "size": 129672,
+          "payload": "delta/0091_2.bin"
+        },
+        {
+          "sha256": "4b35e8bb1a332f93895217b52042f26d7c8d79a5c487674705498298566d7fff",
+          "size": 128592,
+          "payload": "delta/0091_3.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/event_visit.txb",
+      "target_size": 174944,
+      "target_sha256": "267ba7c28339d98dbfec1398c2b6d18c341a65282600be7046bbda79072e15a1",
+      "variants": [
+        {
+          "sha256": "9ec7d8f75139109cf4df42e0dab49146a53ba2ad869198cc538887e683d887e4",
+          "size": 172328,
+          "payload": "delta/0092_0.bin"
+        },
+        {
+          "sha256": "2b75ecc4235ebb6094dc83c60af32f5270aa600472bc120a1b23a84192c07f3b",
+          "size": 173320,
+          "payload": "delta/0092_1.bin"
+        },
+        {
+          "sha256": "e1159003ea94195c9f3dd256c2b17e2d46a80692e6383a4cc9a9139ce3509ea3",
+          "size": 172328,
+          "payload": "delta/0092_2.bin"
+        },
+        {
+          "sha256": "7505a1dbe69e54c4881b0b19e6aef8748430ae7858106cb06f9f24bda270fa38",
+          "size": 173320,
+          "payload": "delta/0092_3.bin"
+        },
+        {
+          "sha256": "88e564c8489233ba2bc07c1435c7e245d7c3775a21cc559d75677a4422b93a21",
+          "size": 172220,
+          "payload": "delta/0092_4.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/game_after_information.txb",
+      "target_size": 556,
+      "target_sha256": "c46ac44fcd5e05e53519e9a461d8299f022679734c87b6759e3c95debd309520",
+      "variants": [
+        {
+          "sha256": "85f2c864bd67952b04572d6b25811d34416d2bcefb08ccc7afde235b42f2d6f1",
+          "size": 592,
+          "payload": "delta/0093_0.bin"
+        },
+        {
+          "sha256": "5f44330edd87453d98806800276f86fb0024ec8b139ea329b54f3a4b3ab0f218",
+          "size": 592,
+          "payload": "delta/0093_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/game_before_info_text.txb",
+      "target_size": 1404,
+      "target_sha256": "caa55e102e48889b88849ace9d169726e93503dbefe121780575f34b440edd5b",
+      "variants": [
+        {
+          "sha256": "9c2954093935eb6d373eaec7a4634ae6ff2da3463bc8b2e57e06639811d14728",
+          "size": 1448,
+          "payload": "delta/0094_0.bin"
+        },
+        {
+          "sha256": "e5f60511ce74c7a0738f083df16e51a941d23687156fc20cd9f8b7b439326b78",
+          "size": 1448,
+          "payload": "delta/0094_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/gm_ability_cat_text.txb",
+      "target_size": 140,
+      "target_sha256": "649c7fd442fb3042b2ea547060f7b757933b807610d3988a6e4e25d3f5dfa634",
+      "variants": [
+        {
+          "sha256": "d1e5fea1579b46531bee6b6516fb777b49b4ea6b21237c1d910caef2295f64aa",
+          "size": 152,
+          "payload": "delta/0095_0.bin"
+        },
+        {
+          "sha256": "90ac52fb9755dec286f58935173577fbecd9f39b5b65a697a50642dec4ac5c1d",
+          "size": 152,
+          "payload": "delta/0095_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/gm_callname_text.txb",
+      "target_size": 468,
+      "target_sha256": "419965f3aebbb5b3de53e75303e9617940cdf667bf94d43f58af974889d39a3b",
+      "variants": [
+        {
+          "sha256": "89d92ec06b079fd55f5c9f215b773a30e04457224774e6d683ffc194145708e8",
+          "size": 504,
+          "payload": "delta/0096_0.bin"
+        },
+        {
+          "sha256": "5fe6f584a16182ce4f7da3f0f15c1afe0335037dc315a411b84995cd68ee13ee",
+          "size": 504,
+          "payload": "delta/0096_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/gm_commitment_text.txb",
+      "target_size": 228,
+      "target_sha256": "5a42325ce87dc326753d1afad925fbcd134e675e2ba22dfa612bc5b448b0af1b",
+      "variants": [
+        {
+          "sha256": "8b5a6456935c9985734374c6004e19f591ca23d19c9c34d71655d1b0bebf5425",
+          "size": 224,
+          "payload": "delta/0097_0.bin"
+        },
+        {
+          "sha256": "1ce503099459123a1a098e22f0c3b309d11e13f757f18c6d8af07af1bffd189a",
+          "size": 224,
+          "payload": "delta/0097_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/gm_detail_text.txb",
+      "target_size": 15668,
+      "target_sha256": "d14c5d3389c302bd28603aba03494c5a10c3a8b26f6b050a3a59653bed112520",
+      "variants": [
+        {
+          "sha256": "8025b868cbb3983b1155466fd13307493aa7b27a05b5169d7af8f0310682d2ce",
+          "size": 16476,
+          "payload": "delta/0098_0.bin"
+        },
+        {
+          "sha256": "9a8cb7dedf6d593ae4c7b1b4a922a770e01492726da578307597e7799ddea91e",
+          "size": 16476,
+          "payload": "delta/0098_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/gm_infomation_text.txb",
+      "target_size": 38484,
+      "target_sha256": "8397c88f91e3adf00963a4212401f52bf15f0f8214118a50a20996c3067d05d6",
+      "variants": [
+        {
+          "sha256": "ed8097bd41e99564dea5a9471b58aad5cfbef38acf3962590a9ffc976c9c3feb",
+          "size": 37304,
+          "payload": "delta/0099_0.bin"
+        },
+        {
+          "sha256": "563007e176aad44c794d66631265186b1b914daccdd528c2fce0e1d139abcbb4",
+          "size": 37304,
+          "payload": "delta/0099_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/gm_removal_cond_text.txb",
+      "target_size": 144,
+      "target_sha256": "7d890fc9d2b248755ec469a169bc731bd0a549485dc0a43eabc6029c13476903",
+      "variants": [
+        {
+          "sha256": "c435e5ed2da34e33d8f509b9b3918422410c5ae4e4dd52f71a506c316f2bac47",
+          "size": 144,
+          "payload": "delta/0100_0.bin"
+        },
+        {
+          "sha256": "091142c01832b9d6bf1de14ba771936fc463167a27247802c06f75415e038f32",
+          "size": 144,
+          "payload": "delta/0100_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/gm_style_info.txb",
+      "target_size": 1900,
+      "target_sha256": "3f8706f690f1794fc26ab9670c491fc7b2427500fd7576c793607e9e30d047a8",
+      "variants": [
+        {
+          "sha256": "83ac2d66248019053206fac0b41d41100161b408d8bf81148c1dd03a70cc8111",
+          "size": 1704,
+          "payload": "delta/0101_0.bin"
+        },
+        {
+          "sha256": "77354eab5ab3215b02b1973b6add567f716c3c8d079ec63db3ef05951c2136b2",
+          "size": 1704,
+          "payload": "delta/0101_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/gm_style_info_passport.txb",
+      "target_size": 1956,
+      "target_sha256": "2e1613f1617378ac271d9eec8d6f4c882c2241a6102125608371e198d9b126b0",
+      "variants": [
+        {
+          "sha256": "01d5d616b53dedae87b70b24da1221e140ba76870a8d5a60ba84ab6ec12766e8",
+          "size": 1756,
+          "payload": "delta/0102_0.bin"
+        },
+        {
+          "sha256": "26e53d84f0747b005894eee8a5b20c67b490fb23a3ed62265fa1e9f8ebb9af95",
+          "size": 1756,
+          "payload": "delta/0102_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/gm_style_name.txb",
+      "target_size": 496,
+      "target_sha256": "ec28bad92c812647123fc6b9acadfff8ce4bea7664bd2fe149e9bcd6769747a5",
+      "variants": [
+        {
+          "sha256": "f8ddfd7ce6e404ab33dfb97cfd0de7c29935ed493b3e6fc43eccda3bd90e019d",
+          "size": 496,
+          "payload": "delta/0103_0.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/gm_transfer_info_text.txb",
+      "target_size": 6004,
+      "target_sha256": "91136bdb1a44e53b0cdbea142285576c8a4fa0fd515871eefb60d9a931548b14",
+      "variants": [
+        {
+          "sha256": "86b431410fd69a002e426cf460f5df20347c4d1d42853053b2f2fead9f395cf9",
+          "size": 5164,
+          "payload": "delta/0104_0.bin"
+        },
+        {
+          "sha256": "a4a8a2be9b4ac53b53eee1ce61d389b079399d4755c4f1e4807b9ccc859b5479",
+          "size": 5164,
+          "payload": "delta/0104_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/gm_transfer_text.txb",
+      "target_size": 496,
+      "target_sha256": "b842f2a7d4a16524fd8b151cf406bac69218214196f59d11e0c1dc9f3f0b7b15",
+      "variants": [
+        {
+          "sha256": "fb8ffaf56408b3c9d9933b8b6327a47aca10c412fc64c4c70d864c8aef709e89",
+          "size": 476,
+          "payload": "delta/0105_0.bin"
+        },
+        {
+          "sha256": "540754b80d1ea3e1133428ab21dadcda1f240c24f518dc3c75a8dbb01b4cf9b4",
+          "size": 476,
+          "payload": "delta/0105_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/menu_information_infotext.txb",
+      "target_size": 4992,
+      "target_sha256": "5345b039262e7272dae5529f3e806f9afc3a9b53240c4d284290ab285a9ade52",
+      "variants": [
+        {
+          "sha256": "b4fd08e6a480e6f8fd1109a7e6693bce855b4014d85e2143ff8b893d81198e6f",
+          "size": 5420,
+          "payload": "delta/0106_0.bin"
+        },
+        {
+          "sha256": "4267e4498ca4a6c213b7aa11b63798a556e9ef84ad288471bf7f8cd33843827b",
+          "size": 5420,
+          "payload": "delta/0106_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/menu_jinji_information_text.txb",
+      "target_size": 15100,
+      "target_sha256": "0f8f450eb7fe641ef76e9f78f2acbcd790e4d5078db0b312d76339720cdae887",
+      "variants": [
+        {
+          "sha256": "eeb9be6111611e3ffb0430582cf23666be61e1e74e54c3ec91a362606bcb0a48",
+          "size": 15940,
+          "payload": "delta/0107_0.bin"
+        },
+        {
+          "sha256": "4ad7390ce32f98e60e619c6dc681eb8c56c6fc7fcf5d2cc1dc6911f6bae85ad2",
+          "size": 15940,
+          "payload": "delta/0107_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/menu_office_information.txb",
+      "target_size": 3988,
+      "target_sha256": "348d33e23b883adacf6bb18b356d846ff5947281d7d3f11340a9aa594b6ae424",
+      "variants": [
+        {
+          "sha256": "2385094bcbcad4035a6c66f7fe7f8e8a9773c08a9ccb0078e7fa14274e8f2f89",
+          "size": 4268,
+          "payload": "delta/0108_0.bin"
+        },
+        {
+          "sha256": "abee51149bc38d5ecd976033a7b5078f684c37c52fbc8b8fdebd13d88c5d7cd1",
+          "size": 4268,
+          "payload": "delta/0108_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/menu_prac_information_text.txb",
+      "target_size": 6400,
+      "target_sha256": "80ade028e7a24499dcbc419ae1cb5f1abcde7ebc88fba4405dd8cda6b82e0325",
+      "variants": [
+        {
+          "sha256": "c39a07410aaea2d7b40a99c3318952d3b917a1c2d01d8c44584407404980d6d2",
+          "size": 6816,
+          "payload": "delta/0109_0.bin"
+        },
+        {
+          "sha256": "36d72068863a17bf334b1ba18d2ff612e97ee85a0912c3a767269324280443dc",
+          "size": 6816,
+          "payload": "delta/0109_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/menu_setting_infotext.txb",
+      "target_size": 5808,
+      "target_sha256": "b19ae27a01a4afa642929ba85a2537044d97892f5885cf7e3717bae35009bde3",
+      "variants": [
+        {
+          "sha256": "f99af28d930ff445a4c02baec085313e3a813b394557b458da253fcbaf85bef1",
+          "size": 6248,
+          "payload": "delta/0110_0.bin"
+        },
+        {
+          "sha256": "bc13e101d7b3c2979da505b6e751edcc47f5c36dba1b3c9a7522e6160c1722f3",
+          "size": 6248,
+          "payload": "delta/0110_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/menu_shisetsu_infomation.txb",
+      "target_size": 2504,
+      "target_sha256": "f0627cf33915bfa83280a64b985f920cd9e7e100103e2df99f6cfced76d39904",
+      "variants": [
+        {
+          "sha256": "c3101f33c13069460b4a662814caaee37e725f10b86e54d177277d21f7770904",
+          "size": 2376,
+          "payload": "delta/0111_0.bin"
+        },
+        {
+          "sha256": "cbc2631455ac559aa6a989ac49f25c78ba39f19d51f4ba67d4cb1a6918fde9d5",
+          "size": 2376,
+          "payload": "delta/0111_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/message_persuade.txb",
+      "target_size": 2668,
+      "target_sha256": "37bf6a1f355f3ec143fd60ef08b294cbdfd3702034200a7705093fd477d70240",
+      "variants": [
+        {
+          "sha256": "a679a1f992f1ee055b1a967f6321e3e7b4323e2c1dd13d0fa3d7851f553bc830",
+          "size": 2392,
+          "payload": "delta/0112_0.bin"
+        },
+        {
+          "sha256": "5d4a6fda312073710475c2a74e6adb6ef88bb2390e5fc081ea8d254283641c3c",
+          "size": 2392,
+          "payload": "delta/0112_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/pl_repo_item_name_text.txb",
+      "target_size": 352,
+      "target_sha256": "2cd5792421b5b21128d68480caf6d7d7b54f2180121e18e719dc4e9048722924",
+      "variants": [
+        {
+          "sha256": "1e4691878d90aa68829c40adbf391e1c1b36280870795781e92cf12428159e92",
+          "size": 396,
+          "payload": "delta/0113_0.bin"
+        },
+        {
+          "sha256": "47131f505b1ffbb5da2f228cdc018576429f6da783382b064be0c3109c181fba",
+          "size": 396,
+          "payload": "delta/0113_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/pl_repo_text.txb",
+      "target_size": 12624,
+      "target_sha256": "2394508a3cc54a487f1620b1e35f7878a682afb454f7e64e077792a7811fdf5b",
+      "variants": [
+        {
+          "sha256": "6fa07cd1848bfde4681bc79a0740ee9007eeecd98264d91d4ed738bbf4c716d3",
+          "size": 11540,
+          "payload": "delta/0114_0.bin"
+        },
+        {
+          "sha256": "937d9531482dd076eabbe6af38737e757274b955439d9c69cd57139a57c4cb62",
+          "size": 11540,
+          "payload": "delta/0114_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/player_list_comment.txb",
+      "target_size": 3056,
+      "target_sha256": "af55ad61cf3df9b9d7a7f00cc1701a43636ecf88ee5b7633241ac89b0eed251f",
+      "variants": [
+        {
+          "sha256": "76ec6d9dfaace9aeeb66ae00aa359ff5a832e6b748ad7fc47b58e442f3191e7b",
+          "size": 2876,
+          "payload": "delta/0115_0.bin"
+        },
+        {
+          "sha256": "48b06159a4ceb9d74d3faab2502881881abfa225e79c4b6c8dafa51daa6c0a65",
+          "size": 2876,
+          "payload": "delta/0115_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/player_match_hyoka.txb",
+      "target_size": 3488,
+      "target_sha256": "1329072c5f5eecece6564dc7aeac350bc82c82f0d8aa238fdd7fb4dd1de5845b",
+      "variants": [
+        {
+          "sha256": "7349ff4554dd70dec532ef6424b2af437747304b953fbc1b063a208e1c2854e5",
+          "size": 3636,
+          "payload": "delta/0116_0.bin"
+        },
+        {
+          "sha256": "31e60f2dfb717d869e819ee0486d830441b2a9c7614d074e45d011d84af54760",
+          "size": 3636,
+          "payload": "delta/0116_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/playstyle_name.txb",
+      "target_size": 1680,
+      "target_sha256": "cc94d84731c02c656be0606640a4c831b3471c5bfa410b23f935a6d764a4f4ed",
+      "variants": [
+        {
+          "sha256": "af98e791fe4a4e153d2970e836b2f77fd5fcbf028ee13606178cb66b9a28c6ad",
+          "size": 1880,
+          "payload": "delta/0117_0.bin"
+        },
+        {
+          "sha256": "d778731f60bf89247954ab7a73f8a09a1b595dfee0d744161cfc562fb4e94c18",
+          "size": 1880,
+          "payload": "delta/0117_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/promo_result_bigsuccess.txb",
+      "target_size": 29480,
+      "target_sha256": "c6b5c3f77b81264d24f38f2c635714cabb868656ea5969c4223fe86059d5c2b5",
+      "variants": [
+        {
+          "sha256": "80d8723fbc5fd118df1dced1e0c3498f181035e296a74b7c597c1c1947c69752",
+          "size": 29820,
+          "payload": "delta/0118_0.bin"
+        },
+        {
+          "sha256": "8af75b4787b5c4afd8ab093daba65bb42bdad46a9af158635bc8e4db1d7c211a",
+          "size": 29820,
+          "payload": "delta/0118_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/promo_result_failed.txb",
+      "target_size": 30520,
+      "target_sha256": "fb49401c81c2f738c09c53d19ff7006bcb2da0fdda8d80fc0551f1e6f670ff85",
+      "variants": [
+        {
+          "sha256": "5e25eaa3c5a0ae5bed84ac6269f3d17a0679fbdd776b2c6b41f964a874a73a02",
+          "size": 31136,
+          "payload": "delta/0119_0.bin"
+        },
+        {
+          "sha256": "142d59aa88fdbee20a37f6c1683c5791f5c3b07f28ddc7bc9c4a882178d24ecc",
+          "size": 31136,
+          "payload": "delta/0119_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/promo_result_successed.txb",
+      "target_size": 30996,
+      "target_sha256": "ca93836d4379b812652bee86636538d79ae22421e551d7b5a2753c49e54c2ae2",
+      "variants": [
+        {
+          "sha256": "efe2dec254e0c8411a1d97eed5e888dfc8125715fd860c34ce1fb78c65c0562b",
+          "size": 31628,
+          "payload": "delta/0120_0.bin"
+        },
+        {
+          "sha256": "5782036c1ba5dec677f1847b1b863f3e447db73f39d8d1b80e3333bfc57feb53",
+          "size": 31628,
+          "payload": "delta/0120_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/promo_seq_message.txb",
+      "target_size": 1676,
+      "target_sha256": "239185f9dc04205f458b5a349bbbf8bbe8670b0e234c227c1b04a2e5f718af1b",
+      "variants": [
+        {
+          "sha256": "a6e29748043e68ff3769c57eb2c66abefa6d2d0c7717d0e5797102401b9587dd",
+          "size": 1816,
+          "payload": "delta/0121_0.bin"
+        },
+        {
+          "sha256": "937b4dd444d677dd6fcf8a9bca59d34b013941bd6005fbbbf7322b92c62bc1d3",
+          "size": 1816,
+          "payload": "delta/0121_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/promotion_hint.txb",
+      "target_size": 9360,
+      "target_sha256": "eb4c0cd15bafd305767c16e9d27df5518cc124ad965b62af70a4e37ff3658c7c",
+      "variants": [
+        {
+          "sha256": "35b13ba0d7d383a6c695c027663cd439d9b0335905affc876ee27eee3e38639d",
+          "size": 10064,
+          "payload": "delta/0122_0.bin"
+        },
+        {
+          "sha256": "c2d08aee3465122eb0076966f37951f01903bd744d9898240dce8c6dd016b808",
+          "size": 10064,
+          "payload": "delta/0122_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/promotion_name.txb",
+      "target_size": 2468,
+      "target_sha256": "7f4a768557dc7e7d36aaeca5ce011dc874d5d057dfe2b9d355388f36d8a729dc",
+      "variants": [
+        {
+          "sha256": "4d480b01a079cca031d71cfff58a670b04a1eff1ec3eccca2c14b23006895c0e",
+          "size": 2656,
+          "payload": "delta/0123_0.bin"
+        },
+        {
+          "sha256": "b383e28807be1ca5117593bda8379487312e0461d0a232996fda7e10c0d2a83f",
+          "size": 2656,
+          "payload": "delta/0123_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/promotion_plan_detail_name.txb",
+      "target_size": 708,
+      "target_sha256": "a0b7dc3fbb90b52bca670daf2ca675aeea42bfad1729e5f67e587280c6ed1b42",
+      "variants": [
+        {
+          "sha256": "b9c2fc5a0c2d0ffd6a931548b5b3c29623a6c1656a9564ea573ec1cbfb7e6fc2",
+          "size": 804,
+          "payload": "delta/0124_0.bin"
+        },
+        {
+          "sha256": "9d8517f007b7c8f0a155bbcf465068b2ab88c6eeca0a7a88c1444c72f7ae286e",
+          "size": 804,
+          "payload": "delta/0124_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/promotion_plan_name.txb",
+      "target_size": 296,
+      "target_sha256": "c87043978c5a71cd8a851bd7a393e08f4006908431ef52f64bddd9b54d0b071b",
+      "variants": [
+        {
+          "sha256": "63b613d115d5452c0bddd361893ef4d2b6f7506ab9317e92a863da04c10e04fc",
+          "size": 316,
+          "payload": "delta/0125_0.bin"
+        },
+        {
+          "sha256": "39b2cbf7a4164cd7947fa0216a9bc8659e00a9487725c96938199f1289765295",
+          "size": 316,
+          "payload": "delta/0125_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/promotion_plan_text.txb",
+      "target_size": 2744,
+      "target_sha256": "9db6abcc9f61a6c1f03b2a223e0cc7ef0e6fc08a0409662940147fa321595649",
+      "variants": [
+        {
+          "sha256": "66c5e02e7d08429ca4036589753ecffc47fad2acae3e6d4420120573603b970d",
+          "size": 2356,
+          "payload": "delta/0126_0.bin"
+        },
+        {
+          "sha256": "1a484a0457db95a7fab966fd7fdf7309a04f338a44d424afa5d3604c7d9977a6",
+          "size": 2356,
+          "payload": "delta/0126_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/promotion_player_assign.txb",
+      "target_size": 15424,
+      "target_sha256": "abbf12e2232af8c1977d0c753f0e11ba5fa0584ff47b85f8c0f110dcd3aa0b08",
+      "variants": [
+        {
+          "sha256": "38aa78c8de448ee0eeb9b2583a9f5f03e5fe08dd9c807e239d6fa2fc3815a548",
+          "size": 15868,
+          "payload": "delta/0127_0.bin"
+        },
+        {
+          "sha256": "f65ee31d11c2363f6464f8c4ab2db10e020d537cea2243f9d46a31af3f3b9356",
+          "size": 15868,
+          "payload": "delta/0127_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/promotion_teian_away.txb",
+      "target_size": 5308,
+      "target_sha256": "cf03bdaab5901a9299cb00d064818428495015b7f60678fc10ea8a8895e3ae94",
+      "variants": [
+        {
+          "sha256": "1b1b9a9b40d29c3d8330fa9ab2714872142d5cff8f14793f1f491dc6ea368ad3",
+          "size": 5980,
+          "payload": "delta/0128_0.bin"
+        },
+        {
+          "sha256": "b9f792e187e3c61b5f3a258105898e1e025fc69b620106152e51143398bf7574",
+          "size": 5980,
+          "payload": "delta/0128_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/promotion_teian_home.txb",
+      "target_size": 11788,
+      "target_sha256": "150579a1abb9678aa494272d478cddad6a2055ed0fcdc0dff036d609e1bab90c",
+      "variants": [
+        {
+          "sha256": "e395633d06f272cd3ad550c4bbdf60da43aed3b58857e7032a6600ecbcba72b6",
+          "size": 13256,
+          "payload": "delta/0129_0.bin"
+        },
+        {
+          "sha256": "2a5bdb95ea3133811d43f862ec499c45e73e9d2136b1d4a37815e6e89538a47b",
+          "size": 13256,
+          "payload": "delta/0129_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/promotion_teian_off.txb",
+      "target_size": 540,
+      "target_sha256": "5ccf83aa12f8a39404ccfd6032c8c2add3cdfd2f386268fcd57f3e0078a071e0",
+      "variants": [
+        {
+          "sha256": "755bb7fc212613b88a6907e50ccaa92dd4d9629dea17df76a9e8640efd3df0a5",
+          "size": 588,
+          "payload": "delta/0130_0.bin"
+        },
+        {
+          "sha256": "ef68ab42a350e96bd7b99cecd0a38a01799b4c4eff151300e52c5a7d3342c961",
+          "size": 588,
+          "payload": "delta/0130_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/promotion_text.txb",
+      "target_size": 7592,
+      "target_sha256": "4fb4fd6ff704ba8fbbc6bee5175b29f82bb328455e15be198fdc326c453b3305",
+      "variants": [
+        {
+          "sha256": "7c86b357e442020c04150b283f82f8a6097369ea473ffb15588887f523513530",
+          "size": 7944,
+          "payload": "delta/0131_0.bin"
+        },
+        {
+          "sha256": "9f738fce21ec4cc0a404b66c1edd16b974a4eaad32ccb1c2cacc660f3b297184",
+          "size": 7944,
+          "payload": "delta/0131_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/rinji_name.txb",
+      "target_size": 1228,
+      "target_sha256": "bd3a643181f5086b58a79a333a041013e68361d812ca6b1e32c9f7a6beb8c074",
+      "variants": [
+        {
+          "sha256": "c57112403bce18383bb87b84f50d776bdd0f52387e64b0b395c27eb0f3591129",
+          "size": 1364,
+          "payload": "delta/0132_0.bin"
+        },
+        {
+          "sha256": "bf05cea014d187ec4cfb27a5bc44057079f7cd121378cf12fb3cd3153ed194a0",
+          "size": 1364,
+          "payload": "delta/0132_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/rinji_pack_name.txb",
+      "target_size": 744,
+      "target_sha256": "122c6440ed848c773d5832f315a8c6b9f822f65ef1a382e88ca040e018823c43",
+      "variants": [
+        {
+          "sha256": "cba0471564c2055f4afdcdaf0e8a3161d3f8b81a6e5c448c582f6b79d9628095",
+          "size": 744,
+          "payload": "delta/0133_0.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/rinji_pack_text.txb",
+      "target_size": 908,
+      "target_sha256": "0e12bcc1e8c70492a756f72a1c630396b4e1c4df5396458fdbb6f42e3c5439f6",
+      "variants": [
+        {
+          "sha256": "f58d94109212dc9270a955e85e5a8c503c15fac3c23e07b987bc81c3f5a52deb",
+          "size": 908,
+          "payload": "delta/0134_0.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/rinji_text.txb",
+      "target_size": 2492,
+      "target_sha256": "7b1062cb09d23c52bb8274ea3bbf54e20f31d2e5fddd0846a8f633e3f04975cf",
+      "variants": [
+        {
+          "sha256": "623af563cb9c4f993ee80f1bcf19cd3bef8e08d4768bcd3770e4913f3a52d721",
+          "size": 2276,
+          "payload": "delta/0135_0.bin"
+        },
+        {
+          "sha256": "c452564aa515a6bed50126c530251ca0a38a9c9d06f67c248eb38d8a4d3a8d14",
+          "size": 2276,
+          "payload": "delta/0135_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/schedule_information.txb",
+      "target_size": 1548,
+      "target_sha256": "da918dc2c9b89d05217b71443a8d41a5a18f581f20aa7fd439b85ec218465aec",
+      "variants": [
+        {
+          "sha256": "f5edd08f0dde4fc2c5863449b6b62b3cb545d6083f40fed9f0fdb6b09159ff05",
+          "size": 1664,
+          "payload": "delta/0136_0.bin"
+        },
+        {
+          "sha256": "194c1649bf9eb665a9bc97caf47c6f364d38448c4bddd9d92431d23e2c5461ad",
+          "size": 1664,
+          "payload": "delta/0136_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/schedule_setcomment.txb",
+      "target_size": 112,
+      "target_sha256": "dbf59edc82ee42a88fb91997bcedf25f3286963d4ca2782dae47bc7ff2437cee",
+      "variants": [
+        {
+          "sha256": "b2a3f372e9d77cfc1c30304b420d929014b3d5fbba9c76f28fa5dea25a7188e6",
+          "size": 124,
+          "payload": "delta/0137_0.bin"
+        },
+        {
+          "sha256": "92f95bd1ca3a6e78b15ecc2c508116f57eca6ee8c5a2cc2d9791696f9e73fbfb",
+          "size": 124,
+          "payload": "delta/0137_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/skill_info.txb",
+      "target_size": 8612,
+      "target_sha256": "65137de76e26ac00b66f7cbc98c5e64523f6a28d128c7e27c9d4cfc6572f69ce",
+      "variants": [
+        {
+          "sha256": "1591f2c82423da806ef6362c0af9668319220324d6316a83c21f5f1abff85d38",
+          "size": 9228,
+          "payload": "delta/0138_0.bin"
+        },
+        {
+          "sha256": "92d12334c457ef60460b76f111bd7f41832ea67926d402678f6167094385562c",
+          "size": 9228,
+          "payload": "delta/0138_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/skill_name.txb",
+      "target_size": 5504,
+      "target_sha256": "2553f8b2c8df52e2754babbf5aa40cc4164e7a10168c0043eba529b8bd34e98d",
+      "variants": [
+        {
+          "sha256": "d0d1c359adcf981a29ec1d18d596926ed65dc0e62694e8e67a1dae561cf4f1a0",
+          "size": 6080,
+          "payload": "delta/0139_0.bin"
+        },
+        {
+          "sha256": "1ebffbca115ca0c794b5e6cdcf49fbb77908cdbc97c3c7fe5389e19d8d90ee9d",
+          "size": 6080,
+          "payload": "delta/0139_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/skill_type_name.txb",
+      "target_size": 468,
+      "target_sha256": "0c19f355ab7b768c2cf1aee9df4cd85e9dda88b90555fa7ad012dc1475786fd8",
+      "variants": [
+        {
+          "sha256": "15909fb919c1c457e539b7a484506eba0bc40cb7d74e96f1d9c8ae6e807d756a",
+          "size": 540,
+          "payload": "delta/0140_0.bin"
+        },
+        {
+          "sha256": "c3ea4b9e659cfb976ecf0db0b7bbab2807612bca466836986ee471b663b18a39",
+          "size": 540,
+          "payload": "delta/0140_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/staff_sp_name.txb",
+      "target_size": 9244,
+      "target_sha256": "d72b1563205518c12da4938194dd54cd64c504ebd0384d8ee2af53c4b8d274f4",
+      "variants": [
+        {
+          "sha256": "5c6fc13620196e9416dd927aecd8b88ae93b08ad25921fd367751baf5e96aacb",
+          "size": 9832,
+          "payload": "delta/0141_0.bin"
+        },
+        {
+          "sha256": "71a70a915f87d6bbf84f247a5a40dba1e9a91aeee878c32f616413e4387d6ee9",
+          "size": 9832,
+          "payload": "delta/0141_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/staff_sp_styleinfo_text.txb",
+      "target_size": 20800,
+      "target_sha256": "855bf1e154cc4c9b074a300115e88246751858e4d76f6ccf6f73acd6099995b7",
+      "variants": [
+        {
+          "sha256": "f9a1ac0537019d4255cdbe59a3e8f205c9f95cb01e8448a796c87666d5546567",
+          "size": 21332,
+          "payload": "delta/0142_0.bin"
+        },
+        {
+          "sha256": "88316502e9801ca7836518a36c54e8b73de54fce1910c50a69aba33b9368bf6d",
+          "size": 21332,
+          "payload": "delta/0142_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/staff_sp_text.txb",
+      "target_size": 18772,
+      "target_sha256": "25bce8d7d3bdac203f35d165607ca133b3c42ed7965e4175b7827d176553f68b",
+      "variants": [
+        {
+          "sha256": "8a3d85fcafbfda3ab435feffe6db036a72c053e46d1bb1d5c865baa65c1eef54",
+          "size": 19376,
+          "payload": "delta/0143_0.bin"
+        },
+        {
+          "sha256": "5bb70eb4478e2c94ca042c6342619aa744cc4ad2eff25c5af2157123bdf4897e",
+          "size": 19376,
+          "payload": "delta/0143_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/supporter_hyoka.txb",
+      "target_size": 8832,
+      "target_sha256": "bf792e70ea62bd887d342d836427b2b78a52729eb7d94b508fcddfa467237d5e",
+      "variants": [
+        {
+          "sha256": "4c660c27f091fda34555a391d24e27b86b38342e754add35cbe859e695a9c22e",
+          "size": 9224,
+          "payload": "delta/0144_0.bin"
+        },
+        {
+          "sha256": "3f3f9798edcdef9825537318351f22f737d88e6bb64e9003aebc8ed8f1b6a4c4",
+          "size": 9224,
+          "payload": "delta/0144_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/topic_name.txb",
+      "target_size": 5776,
+      "target_sha256": "612003a9f3965e75a0f276b7d7f966fb5128a688c91853c10d3cef64d466d1d0",
+      "variants": [
+        {
+          "sha256": "55242c5ebfdc2a6c50e57c959150cc665709cfff1e7068ed7291b0db08f43635",
+          "size": 5980,
+          "payload": "delta/0145_0.bin"
+        },
+        {
+          "sha256": "181bea34de26edc6162afae93027a39e4997a5bc9056a7de2b194cef414fa777",
+          "size": 5980,
+          "payload": "delta/0145_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/topic_sequence.txb",
+      "target_size": 148,
+      "target_sha256": "41948bf6416b8a6fd3c5858e12a55208a2b37409d2aeb644e93983e7a8900948",
+      "variants": [
+        {
+          "sha256": "90ea79b149df5fb9588b3d87202cba2839779c53fdc07dba6df971d0c390a175",
+          "size": 124,
+          "payload": "delta/0146_0.bin"
+        },
+        {
+          "sha256": "c717ef1c7d244c2a222d193e243e21c42bcdd04d24705d71f1ec0ed50281398d",
+          "size": 124,
+          "payload": "delta/0146_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text2/topic_text.txb",
+      "target_size": 54060,
+      "target_sha256": "b42156cec1e83e52231d7a22b00ef4b4dc6ecfb997cfe58b407718032281da78",
+      "variants": [
+        {
+          "sha256": "5b1d28a3b4e6315747f28d5f42d3b0c2e720735bdb02de742677778b1d30b6e9",
+          "size": 56440,
+          "payload": "delta/0147_0.bin"
+        },
+        {
+          "sha256": "8a7688b3ea448e139e7e3bf922ce712916ad136689874ad591c7b6c400a46c34",
+          "size": 56440,
+          "payload": "delta/0147_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/help_hisyo_message.txb",
+      "target_size": 6708,
+      "target_sha256": "6f637f8940cdcfd66ebec8d80e425df18e56fcae5c4499bf89b5859a5da586b6",
+      "variants": [
+        {
+          "sha256": "be33e8a00617971956b1fb35990c8afade3f883c84057d4ebcda5669a308f1bc",
+          "size": 7136,
+          "payload": "delta/0148_0.bin"
+        },
+        {
+          "sha256": "7a98b44f4330624f1e367386f59150541f75affaede93e323642ae88f2b0e8f6",
+          "size": 7216,
+          "payload": "delta/0148_1.bin"
+        },
+        {
+          "sha256": "0227732bbd6a1b4aa6049d8122b56ff8d9c1cf37e7e64cd5ec3eb83cdee73c78",
+          "size": 7136,
+          "payload": "delta/0148_2.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/help_message.txb",
+      "target_size": 17596,
+      "target_sha256": "796171d0329d63d3b146081f50c50b9c24c5727cd5b55386e2acbbb07967fb2a",
+      "variants": [
+        {
+          "sha256": "ff0aafa388bf1a45c2f31c452deecc9b32d6b2fc457eecdd2d342aba2f3a7452",
+          "size": 17828,
+          "payload": "delta/0149_0.bin"
+        },
+        {
+          "sha256": "d0dc28606e7bb8287e3367d370e538389d47635ef1a653a2d89da23b8ea1f272",
+          "size": 17828,
+          "payload": "delta/0149_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/help_sub_theme_text.txb",
+      "target_size": 1936,
+      "target_sha256": "c09d1487f2f5b75845f59eccb517fdc0f0e32d76d8f5c40ff23eff744cc11d66",
+      "variants": [
+        {
+          "sha256": "312f6ffeb299ee3faddf973ee891a5359c40ff49a0654cadf82d935920523434",
+          "size": 2076,
+          "payload": "delta/0150_0.bin"
+        },
+        {
+          "sha256": "173dddba72193338f454774ddc85e0eaf8d87995e794583b954b71a01e045ac4",
+          "size": 2076,
+          "payload": "delta/0150_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/help_text.txb",
+      "target_size": 560,
+      "target_sha256": "c2f79375f96235e70d3d088b92e49fc170e731233c32226b754062e90c0b58c6",
+      "variants": [
+        {
+          "sha256": "2ecf767d84fd76d01c935ed9b6030228498c65b3a0be5962ebeda0eb50e35d29",
+          "size": 604,
+          "payload": "delta/0151_0.bin"
+        },
+        {
+          "sha256": "95e09af4da1eef4b14a97f245d7c8879d24019c470648afe3b11c803f69339af",
+          "size": 604,
+          "payload": "delta/0151_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/kakusei_houkoku.txb",
+      "target_size": 15588,
+      "target_sha256": "02d697cc058d8af27df157a8f404f4dc891e77dc30fdd85a87f4a8ab7162a8d1",
+      "variants": [
+        {
+          "sha256": "511cbd8ef6510e8e3d0201dc449bee9935111f8dd2f84f377734c62f675c8538",
+          "size": 15768,
+          "payload": "delta/0152_0.bin"
+        },
+        {
+          "sha256": "4ea65db1e2dba4d442dc00a53b25b04b8b15ce8b44c53c701e5e67c9be36744c",
+          "size": 15884,
+          "payload": "delta/0152_1.bin"
+        },
+        {
+          "sha256": "f977dea6f3de14b11e338971fa4771f3e19fc2e6725afa5ee3f710ea7de94fed",
+          "size": 15768,
+          "payload": "delta/0152_2.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/kosei_houkoku.txb",
+      "target_size": 1848,
+      "target_sha256": "eebb1203ab419ec55469cfd32b711553354f95a8a66fb36a12d1e41cd8f0fdd4",
+      "variants": [
+        {
+          "sha256": "4f375d38b35af8397b61a8dfbc4a29a6464e8875a63c52ade445820bfd074dfb",
+          "size": 1816,
+          "payload": "delta/0153_0.bin"
+        },
+        {
+          "sha256": "51f58dd57c3d1f37b08df7fe9064d05960ae7d17f649f1d84954940f73c40d91",
+          "size": 1840,
+          "payload": "delta/0153_1.bin"
+        },
+        {
+          "sha256": "460a3df46e02a7b7a1cdc35220d8d1e7d5d9f7b5b3509c0d053b0ae99ee89896",
+          "size": 1816,
+          "payload": "delta/0153_2.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/manager_text.txb",
+      "target_size": 4428,
+      "target_sha256": "d66003d7f789148fbdec9f753d5d0e0287a6d41aef016e6658decf51c19814c0",
+      "variants": [
+        {
+          "sha256": "ed3c6ab80459ffda98da605e179a98f7f33a9224bc9bdd85669ba32122281ff1",
+          "size": 4568,
+          "payload": "delta/0154_0.bin"
+        },
+        {
+          "sha256": "28935486bb20d60a9de6059965ea3c3c5036f743d7e6cde52e41e47859abcb82",
+          "size": 4568,
+          "payload": "delta/0154_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/message.txb",
+      "target_size": 1164,
+      "target_sha256": "c8a3975f4f8027f803eb2401a2b481476ad57b21a3d283b06dd37ebcb6ccb4a5",
+      "variants": [
+        {
+          "sha256": "f308e0d8cd1c9827ca55900976ede9e05f777e4d3d905df4465b210cb354efd6",
+          "size": 1216,
+          "payload": "delta/0155_0.bin"
+        },
+        {
+          "sha256": "912047c6cfea16f0c538aa5843c06c0419f807b3055e7b27fbca0d9d24ca3b8d",
+          "size": 1216,
+          "payload": "delta/0155_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/net_compe_name.txb",
+      "target_size": 628,
+      "target_sha256": "4dd3312b5c93bbb969ef7e6f8a0c662b1e6e3d9fcfcbc845e1d5b0d4a3d5486e",
+      "variants": [
+        {
+          "sha256": "a4ef00e37f68b6ef7c488264c24d02a8fb882bfb61b5d360fa0035c28fb2c09c",
+          "size": 636,
+          "payload": "delta/0156_0.bin"
+        },
+        {
+          "sha256": "71a27638f5345eb01415032ce9203d17a0140f3316c72bba9d464e80ba1d5b4c",
+          "size": 636,
+          "payload": "delta/0156_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/net_compe_reg_text.txb",
+      "target_size": 632,
+      "target_sha256": "58dda23069f2b8b5c17f9d6f563b8ce04fd6ac8e10d380f468c9dc86b4b833f2",
+      "variants": [
+        {
+          "sha256": "f3bb9370fcab0ebd7d7cec42d9e02e1d62841be91cd1489bf65ba79bd1b17f56",
+          "size": 676,
+          "payload": "delta/0157_0.bin"
+        },
+        {
+          "sha256": "a3c60dfe22ac7f09ffc1a9b85c1afc187b96f8e7fb887c2e87f26139b88b2fa5",
+          "size": 676,
+          "payload": "delta/0157_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/net_info_text.txb",
+      "target_size": 2044,
+      "target_sha256": "c6564d39c8a527a9e534a59c893c34b305d4186a94dba27394d6630e8e9f5a10",
+      "variants": [
+        {
+          "sha256": "8342e035d0ce37ccce4b706ce1ffb999d4728b0553b8db67e0876ecf621a0972",
+          "size": 2016,
+          "payload": "delta/0158_0.bin"
+        },
+        {
+          "sha256": "dd7448c56009a78b25af08588901b24bc0bfd39cb4befe65362e328f94cdb2bc",
+          "size": 2016,
+          "payload": "delta/0158_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/net_vs_infotext.txb",
+      "target_size": 3772,
+      "target_sha256": "53186e860e1fbda7e1609b6007fdc28269d72dcf5ef57ab84b6dd42a7b91c3a5",
+      "variants": [
+        {
+          "sha256": "fba978dc3e79b74b9e256a75f00950e38f43782fdcf8338502dc564a2316c53e",
+          "size": 3644,
+          "payload": "delta/0159_0.bin"
+        },
+        {
+          "sha256": "448564dd02a2b30c6797ede9251269a80d374860a33447e08bb0299baf48e2d6",
+          "size": 3644,
+          "payload": "delta/0159_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/net_vs_reg_enchopk_name.txb",
+      "target_size": 128,
+      "target_sha256": "2c6e38d86e7067fae19b946b03566c21f2de4c767637607e0be8d93f247b0206",
+      "variants": [
+        {
+          "sha256": "e31c6299938c518ca3197fef8c1fb84daecc3ccde4251fd0827edfd6ee9e083b",
+          "size": 128,
+          "payload": "delta/0160_0.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/net_vs_reg_kaigaiwaku_name.txb",
+      "target_size": 84,
+      "target_sha256": "a4462706b90e60a7237f0b62a978047af853f540a8df8a0df2b534face9b87c1",
+      "variants": [
+        {
+          "sha256": "59c0f19ffce98a6c36ada0f903e2623c77afeed0f9528721efaf6ba8300fc231",
+          "size": 88,
+          "payload": "delta/0161_0.bin"
+        },
+        {
+          "sha256": "8b70e179ba7b933dd4795f352d9d9a779d096ffd61a16b7496148ff98cd13f02",
+          "size": 88,
+          "payload": "delta/0161_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/net_vs_reg_matchspeed_name.txb",
+      "target_size": 88,
+      "target_sha256": "71b8c8c8f104bf2d83d3977ec375fc91ff49b7070f75c684d2db9e94b1288aae",
+      "variants": [
+        {
+          "sha256": "824f9f3feffaf31ff7b20ef1eae2f22cdf36027ec737b79b48130c34d2db521f",
+          "size": 88,
+          "payload": "delta/0162_0.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/net_vs_reg_sceneskip_name.txb",
+      "target_size": 72,
+      "target_sha256": "5f56d351c74700e2f5f9855beffeacc542f618c40624ffe7bf048233ab25ade6",
+      "variants": [
+        {
+          "sha256": "99d6d49b39d83a998644853df3b3f3cc7dfd3c62a2aa036eb8fc045e456b868f",
+          "size": 72,
+          "payload": "delta/0163_0.bin"
+        },
+        {
+          "sha256": "6c82fa3701a939fd0aacf21bcabf44c06de0a4a5857279570ef622ee6cf93dbb",
+          "size": 72,
+          "payload": "delta/0163_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/net_vs_sequence_text.txb",
+      "target_size": 1224,
+      "target_sha256": "3d089ed78e572aadf685b0e8fab9ee21cd5a3a0f6f58b2f0b2c6ea0a27dde7c1",
+      "variants": [
+        {
+          "sha256": "0cee1bfc4172fe36255400b9ee5f05a4abab6115e20fab7a8a7577e5258734d0",
+          "size": 1224,
+          "payload": "delta/0164_0.bin"
+        },
+        {
+          "sha256": "889ad5b157d0bda5c6ac8dfc05c75ff9516255c1fad4c5c9e005083db25b4b44",
+          "size": 1224,
+          "payload": "delta/0164_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/opening_magazine_text.txb",
+      "target_size": 27340,
+      "target_sha256": "591d1421ee69e451c8f2d35196a449b7acf3d06c427582de324a6010c655d89d",
+      "variants": [
+        {
+          "sha256": "db86c2f02552ae011b00ad4f36b3cf3a8b3f385389fc18523557e8fbd86eeafb",
+          "size": 24492,
+          "payload": "delta/0165_0.bin"
+        },
+        {
+          "sha256": "a3c6f5a32555ce9ca14d3d37b4479c6bcc1a6f78984b3a12e0e3979b91653985",
+          "size": 24492,
+          "payload": "delta/0165_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/opening_magazine_text_isk.txb",
+      "target_size": 1832,
+      "target_sha256": "4d9a713874c95f4583e3e873c5c5eaf828e4cb0fcf89849e6624f73e24817c02",
+      "variants": [
+        {
+          "sha256": "6cdd6d5d11307f6ef4196583d32521fbc3475a34661c31cca6dbe61e44625dd1",
+          "size": 1640,
+          "payload": "delta/0166_0.bin"
+        },
+        {
+          "sha256": "5099f406008be52cf05f432f9a982323fa6e5fcad141e4afea856f2ad3f5579d",
+          "size": 1640,
+          "payload": "delta/0166_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/opening_magazine_text_k.txb",
+      "target_size": 1736,
+      "target_sha256": "29be6cd7c84d33c6c14812cbc0a8cd3099f3e8e8666bdce45e4c58a5444dcf6c",
+      "variants": [
+        {
+          "sha256": "510fcde957a818aae77e2eb50e7e275b5c9fdcfee4c08a557c27511c855eb8db",
+          "size": 1492,
+          "payload": "delta/0167_0.bin"
+        },
+        {
+          "sha256": "a05435d0d18cac88c0f51389cb831ec0904cb614d8d813a6c181495f726a5369",
+          "size": 1492,
+          "payload": "delta/0167_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/opening_magazine_title.txb",
+      "target_size": 7256,
+      "target_sha256": "45b30c93d4cadb270e0794348fe286b696211806773dcdca42c9bc14fa41c7a3",
+      "variants": [
+        {
+          "sha256": "5bbe297e6effa78449d8326f4870127bc993c24577768e3a8d1f2aeddc939131",
+          "size": 7544,
+          "payload": "delta/0168_0.bin"
+        },
+        {
+          "sha256": "a51aed111f26725a0516946096da1e630243937ab636a114aaadd553023736ad",
+          "size": 7544,
+          "payload": "delta/0168_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/opening_magazine_title_isk.txb",
+      "target_size": 140,
+      "target_sha256": "70a7a8815c7bc56a83c2a7a3be2e7ec5fed6ab81537ef1e90f41039bdd5d16f0",
+      "variants": [
+        {
+          "sha256": "a3f32b044d5cc8814a9dc950efb54eeffce52849cd9862d2ee28336f0d7dd554",
+          "size": 144,
+          "payload": "delta/0169_0.bin"
+        },
+        {
+          "sha256": "b82f07b761f8a8e5ef67ede1002897851ce026203bfc0866bf83e03971fbb079",
+          "size": 144,
+          "payload": "delta/0169_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/opening_magazine_title_k.txb",
+      "target_size": 132,
+      "target_sha256": "e5a19920d01e7baded49c63eca3c27a3499a611e3901788b90930fe299594d55",
+      "variants": [
+        {
+          "sha256": "615cbe7e36ed27c289e63c494c903b459d530e6e2e9eb0d7bde4fedffa3c9a3c",
+          "size": 132,
+          "payload": "delta/0170_0.bin"
+        },
+        {
+          "sha256": "95d44160c983bead34fa1b216d4e9647c3ca8ac1281cc6c79245fce84b3e01e6",
+          "size": 132,
+          "payload": "delta/0170_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/player_feature.txb",
+      "target_size": 544,
+      "target_sha256": "abc23bfef090a1e23f45b23c3c0509d064048ad1472d3c21ac87f14c013309d2",
+      "variants": [
+        {
+          "sha256": "4bdd60b9b8bf356c277ed51ef07f008c12f2b3584e68b3d4e84a67e56099e955",
+          "size": 572,
+          "payload": "delta/0171_0.bin"
+        },
+        {
+          "sha256": "9b81abdca3a33a2ad32956d366861f03b6e858a8add98d8fb869ea74ee0aabbe",
+          "size": 572,
+          "payload": "delta/0171_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/player_feature_info.txb",
+      "target_size": 2776,
+      "target_sha256": "bbd78582e5fe9a792d7d91b3679a5d0a9db9727bce973d79b3a704c95ceb38b5",
+      "variants": [
+        {
+          "sha256": "2aad309aa67b5329ddf1f32db4cddf8920c7491bd844209cd5371a5d8a04eeab",
+          "size": 2844,
+          "payload": "delta/0172_0.bin"
+        },
+        {
+          "sha256": "bc023999adca8e88dce5508306a05dbdaef1ea96efc6eaa7da5d883a43f7285a",
+          "size": 2844,
+          "payload": "delta/0172_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/player_housyuu.txb",
+      "target_size": 140,
+      "target_sha256": "545c1a3f410158bbf888ad38de328aca768cd3bec5a69dbca1d8ec54d7763e17",
+      "variants": [
+        {
+          "sha256": "00b045e107e480c6b4732901914fdf6a62145500f0dbcc080068f29b382abc75",
+          "size": 148,
+          "payload": "delta/0173_0.bin"
+        },
+        {
+          "sha256": "f7673f515ea5c7150bb60de2dcfc3d7ef4b5b42959224a27a0294b31cf0bd16c",
+          "size": 148,
+          "payload": "delta/0173_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/player_loyalty.txb",
+      "target_size": 224,
+      "target_sha256": "852994f210d949aff21b05c23609c7728dd857adf467f64485c7b2e422b63864",
+      "variants": [
+        {
+          "sha256": "109eb47d7654185d6c9b4f723d156118d1e009f5ab552636afce443a7e44e921",
+          "size": 232,
+          "payload": "delta/0174_0.bin"
+        },
+        {
+          "sha256": "db04f0de30eee0861826ebb04dc374211eaf096213ca094038fcf6e144792d23",
+          "size": 232,
+          "payload": "delta/0174_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/player_ninki.txb",
+      "target_size": 208,
+      "target_sha256": "a30522111cdcc8c34334e5a8ddf4c2edb612810a1fc5bf505bea6170ce099107",
+      "variants": [
+        {
+          "sha256": "e30ea2871636c4d2dd11f25a6ab70a1c61fdd72ddcc9dc19eab99c2d8f839fe8",
+          "size": 224,
+          "payload": "delta/0175_0.bin"
+        },
+        {
+          "sha256": "357632b3297253ca0c3f138bede2a37094006f2f8cf1fc817d7a9cb104addaf4",
+          "size": 224,
+          "payload": "delta/0175_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/player_profile.txb",
+      "target_size": 905196,
+      "target_sha256": "a014497b7af5f76c15918665d26d62f7963b8dfa98ba30d0831e04910f631b49",
+      "variants": [
+        {
+          "sha256": "a8aca3ebd924289ff04054363bdcc8c33932881d6e0ce1927d021f2fc1b24642",
+          "size": 835420,
+          "payload": "delta/0176_0.bin"
+        },
+        {
+          "sha256": "d758e393f30d35700692231a3e82eb3c055d9373c163a12578b60576ddbc6eb5",
+          "size": 835420,
+          "payload": "delta/0176_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/player_text.txb",
+      "target_size": 13968,
+      "target_sha256": "9dd8f7fda27789e7cbdd012c7f3a848fb81135da040bdc18b0616d4b2081c0e0",
+      "variants": [
+        {
+          "sha256": "2b37817a739d5a13d3489d8b8501545b3c52a38b12504af8fd66f997cdae462d",
+          "size": 14980,
+          "payload": "delta/0177_0.bin"
+        },
+        {
+          "sha256": "52183c75a705e36506d1a04c2c1734ed25d22376915497310ded5812a5b8d496",
+          "size": 14980,
+          "payload": "delta/0177_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/player_yakusoku.txb",
+      "target_size": 800,
+      "target_sha256": "f4408038c3dd52468ffe46a5f263ad12dfde8101f55b1f5fc10c0b7189efe1eb",
+      "variants": [
+        {
+          "sha256": "64caf7a54a3def68661a929dd581d68391d08946a6947f3f78eb1fbf3041abc8",
+          "size": 792,
+          "payload": "delta/0178_0.bin"
+        },
+        {
+          "sha256": "69e21752409e68d6eddda1155f6f358fa2068a63538f057603c3fdc3be82ecc4",
+          "size": 792,
+          "payload": "delta/0178_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/pledit_ability_name.txb",
+      "target_size": 1184,
+      "target_sha256": "c8ecf41d9418e6af2e6eefed13d85ff7afed4904ed7e76eb0bad061932b7dc04",
+      "variants": [
+        {
+          "sha256": "618efdfb3891d543deb647abe99c27ecae34a123790dc4879b82afb166232a97",
+          "size": 1256,
+          "payload": "delta/0179_0.bin"
+        },
+        {
+          "sha256": "f573d201e2aa349f14faaf3328d42c706566f587c0b2264fa5a17d992cdc37f9",
+          "size": 1256,
+          "payload": "delta/0179_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/sakatuku_documentary_text.txb",
+      "target_size": 11320,
+      "target_sha256": "cdaf667ded21a95677e0512ecba63001def3038c763213b664407fa73a6184ed",
+      "variants": [
+        {
+          "sha256": "46047f9115ee2390d73107c077b6f64f19ddbecc190f9f4061ff17932b8d0c18",
+          "size": 10392,
+          "payload": "delta/0180_0.bin"
+        },
+        {
+          "sha256": "897e904014e940cd57507b074eac4040e87b10d893f75ee57b5035cae800720d",
+          "size": 10392,
+          "payload": "delta/0180_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/sakatuku_documentary_title.txb",
+      "target_size": 476,
+      "target_sha256": "410f66dcbdd55035a2ef930b1dfc207a248a89bf74767e5a2ae40e4546e662b6",
+      "variants": [
+        {
+          "sha256": "9b925ecf037de40c8b6efa5bfe9503d8dc9d0af107ac5de02cf8562e872d1c3c",
+          "size": 516,
+          "payload": "delta/0181_0.bin"
+        },
+        {
+          "sha256": "f3affcb192bc1f30a13c29ab24a3b18fd69e62410fbc2618fbd811c170dfe0ad",
+          "size": 516,
+          "payload": "delta/0181_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/scout_profile.txb",
+      "target_size": 16756,
+      "target_sha256": "398deb8cdf653409ca49f002c05a92704f9e5fee13e95e56013fd5c472a1ffb4",
+      "variants": [
+        {
+          "sha256": "2d6d0c707fc2748466ee0e762542c7ec771e47b8c400874ddc0384ee41256c6b",
+          "size": 17116,
+          "payload": "delta/0182_0.bin"
+        },
+        {
+          "sha256": "60ebbf78556b221ac73b972538a7d9fe874538f53c1574c2855484bab741a49f",
+          "size": 17116,
+          "payload": "delta/0182_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/start_club_juni.txb",
+      "target_size": 5008,
+      "target_sha256": "8316752620801e8f7864fbb0bc60719b096136933689e12e59a3b104a0aa9c22",
+      "variants": [
+        {
+          "sha256": "4a0b8482426af5d478193527d54b4e02518b3bd58351b96505351072d1a42556",
+          "size": 5012,
+          "payload": "delta/0183_0.bin"
+        },
+        {
+          "sha256": "fccc3ff3127032d160415c7d213dfeb0832fea8a821574d6e6a99763861e7055",
+          "size": 5012,
+          "payload": "delta/0183_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/start_information_text.txb",
+      "target_size": 2868,
+      "target_sha256": "babacc1875682cefe7e0a3af738ecda31e89f7a1847e69ffbbcea9e8cd363237",
+      "variants": [
+        {
+          "sha256": "375f082b069edcd8f317a984d5dca8f8f11a97f12391ed761b10c9fdba56acba",
+          "size": 3116,
+          "payload": "delta/0184_0.bin"
+        },
+        {
+          "sha256": "f25b90e64c9f128198e8d87753953a4fb8abe96fb4ad6bbc99dc1f43212e5623",
+          "size": 3116,
+          "payload": "delta/0184_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/team_profile_line1.txb",
+      "target_size": 284,
+      "target_sha256": "dfbebce735cbee4ca899b6759fa827779dd187c5c37f5ec7c437c9a04fa7c71a",
+      "variants": [
+        {
+          "sha256": "90454849767e3f4d8ba228ac56a1360870fc7b4c68fe8064a1b3de30769cdb9a",
+          "size": 292,
+          "payload": "delta/0185_0.bin"
+        },
+        {
+          "sha256": "15c05094a4db76c2a93ffbfbe973187fb7e6fc4c0babc8132a67cf4e1def24b3",
+          "size": 292,
+          "payload": "delta/0185_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/team_profile_line2.txb",
+      "target_size": 1196,
+      "target_sha256": "ef3885fec9537745e4b5159ed888c51165c4df2cb5538f67ab90049eccba5e63",
+      "variants": [
+        {
+          "sha256": "cc16954a1e51ff9beda650f70da0f138bf4753cc6afc6ca76f8aa4a43b23d89a",
+          "size": 1252,
+          "payload": "delta/0186_0.bin"
+        },
+        {
+          "sha256": "137ab6b3ca9516e3fda4d07ca829f647d1a4e0bf7468a4118892d28c90041b20",
+          "size": 1252,
+          "payload": "delta/0186_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/tokkun_houkoku.txb",
+      "target_size": 2812,
+      "target_sha256": "aabb07bee8e4e01f68fa44b3dea56aa8c665fd1141ac73c8bc70da749f5303e3",
+      "variants": [
+        {
+          "sha256": "59a97dc7caee6e8036081df99f9cc976ed3b775bb907fb16381cbde6de7d8ff6",
+          "size": 2692,
+          "payload": "delta/0187_0.bin"
+        },
+        {
+          "sha256": "d5b91229b2a0aceec0a394eb0edfc479dcbfee1f20e398f29b74caeb0b3ba68e",
+          "size": 2772,
+          "payload": "delta/0187_1.bin"
+        },
+        {
+          "sha256": "b1c516d81f67977a7d6336bb93d912f59c8045dcc7498080857293faf20d3ec6",
+          "size": 2692,
+          "payload": "delta/0187_2.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/utility_osk.txb",
+      "target_size": 824,
+      "target_sha256": "3a2ec8557e38dd9fa34be120755926699d870a081e476929a1b8ac1ee1814c7b",
+      "variants": [
+        {
+          "sha256": "876989e11ede9c78ccf60a70ef639159b11ab6c14628ae732cb8afdb18bab899",
+          "size": 848,
+          "payload": "delta/0188_0.bin"
+        },
+        {
+          "sha256": "45b0ae12e9182f7724c064455379940b7917a91d1b77e0f138740c0b73269634",
+          "size": 848,
+          "payload": "delta/0188_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/yearend_seq_message.txb",
+      "target_size": 6412,
+      "target_sha256": "f69c1512ecd5da4cb0975d979bd28bcf5989c6b1888904668930a5ab0a69af64",
+      "variants": [
+        {
+          "sha256": "e494a671ff4166da7ec3f19d91c6804fee9dcb09e76066c5a4ae4814e4c70cf2",
+          "size": 6520,
+          "payload": "delta/0189_0.bin"
+        },
+        {
+          "sha256": "2640678f468261ad1a45726e4b00d14eccf38e4f1ac46a29783bce23b38dcb4b",
+          "size": 6520,
+          "payload": "delta/0189_1.bin"
+        }
+      ]
+    },
+    {
+      "path": "text3/yearstart_info_message.txb",
+      "target_size": 2104,
+      "target_sha256": "39ad07c97e7c646a1bdffb965f9ca261b5cf55ba11f76c6bbbf729866465bb30",
+      "variants": [
+        {
+          "sha256": "b261a8c907193e6881a652ae4f74a2923c7ef6405556374578ac564b382853d7",
+          "size": 2160,
+          "payload": "delta/0190_0.bin"
+        },
+        {
+          "sha256": "9c4c2c1454657bddbf522ecb314cc41df1f23019d4c8cb439b212f4ca6029f2e",
+          "size": 2160,
+          "payload": "delta/0190_1.bin"
+        }
+      ]
+    }
+  ],
+  "image_count": 104,
+  "compression": "non-overlapping SLLZ; original offsets, archive sizes and payload limits preserved",
+  "dds_encoder": "Microsoft DirectXTex BC3 uniform",
+  "dialogue_review": {
+    "candidate_groups": 13020,
+    "revised_groups": 5769,
+    "revised_locations": 8752,
+    "incomplete_original_entries_preserved": 2,
+    "all_branches_playtested": false
+  },
+  "runtime_scope": "Boot/render to PSN notice verified; all dialogue branches not playtested",
+  "release_date": "2026-11-07"
+}
